@@ -1,1 +1,5 @@
 theme: jekyll-theme-midnight
+title: File Content Finder
+description: Search in your file contents, not just by names!
+show_downloads: false
+google_analytics:
