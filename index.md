@@ -4,13 +4,12 @@ layout: default
 
 <!-- # What is it? -->
 
+<strong>Geo Systems Dev PTY LTD</strong> is niche Australian software
+application development studio. We focus on developing simple
+single-purpose utilities to make your professional life more efficient.
 
-<strong>File Content Finder</strong> is a desktop app for searching in file contents.
-Unlike other search utilities, which only search by file names,
-<strong>File Content Finder</strong> can inspect the content of many popular
-documents and does not require indexing. 
+Check out our pilot project <a href="/products/file-content-finder">File Content Finder</a>.
 
+Stay tuned for more details on our new products!
 
-Stay tuned for more demos and tutorials.
-
-Until then, feel free to <a href="mailto:geo.systems.developer@gmail.com">Email Us</a> with any questions about the app.
+Until then, feel free to <a href="mailto:info@geosytemsdev.com">email us</a> for any inquiries.
