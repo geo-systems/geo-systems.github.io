@@ -20,6 +20,7 @@ Supported file formats:
 
 Here is a showcase of the main functionalities and settings:
 
+<!-- Fancy Box doco - https://fancyapps.com/fancybox/3/docs/#images -->
 <p class="image-gallery">
     <a data-fancybox="english-fcf" href="./img/1 Main Screen English.png" data-caption="Select folder and search phrase.">
         <img width="200px" src="./img/1 Main Screen English.png">
