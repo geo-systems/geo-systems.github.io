@@ -2,3 +2,19 @@
 ---
 
 @import "jekyll-theme-midnight";
+
+.image-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.image-gallery a {
+    margin: 2px;
+}
+
+textarea, select, input, button, img, a { 
+    outline: none; 
+}

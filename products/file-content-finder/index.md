@@ -5,9 +5,9 @@ layout: fcf
 <!-- # What is it? -->
 
 <strong>File Content Finder</strong> is a desktop app for searching in file contents.
-Unlike other search utilities, which only search by file names,
+Unlike most other search utilities, which only search by file names,
 <strong>File Content Finder</strong> can inspect the content of many popular
-documents and does not require indexing.
+documents. It works in real time and does not require indexing.
 
 Supported file formats:
 - **PDF**;
@@ -20,37 +20,41 @@ Supported file formats:
 
 Here is a showcase of the main functionalities and settings:
 
-<a data-fancybox="english-fcf" href="./img/1 Main Screen English.png">
-    <img width="200px" src="./img/1 Main Screen English.png">
-</a>
-<a data-fancybox="english-fcf" href="./img/2 Results English.png">
-    <img width="200px" src="./img/2 Results English.png">
-</a>
-<a data-fancybox="english-fcf" href="./img/3 File Filters.png">
-    <img width="200px" src="./img/3 File Filters.png">
-</a>
-<a data-fancybox="english-fcf" href="./img/4 Black List.png">
-    <img width="200px" src="./img/4 Black List.png">
-</a>
-<a data-fancybox="english-fcf" href="./img/5 Image Search Language.png">
-    <img width="200px" src="./img/5 Image Search Language.png">
-</a>
-<a data-fancybox="english-fcf" href="./img/6 Time Filters.png">
-    <img width="200px" src="./img/6 Time Filters.png">
-</a>
+<p class="image-gallery">
+    <a data-fancybox="english-fcf" href="./img/1 Main Screen English.png" data-caption="Select folder and search phrase.">
+        <img width="200px" src="./img/1 Main Screen English.png">
+    </a>
+    <a data-fancybox="english-fcf" href="./img/2 Results English.png" data-caption="Review search results. The table can be filtered.">
+        <img width="200px" src="./img/2 Results English.png">
+    </a>
+    <a data-fancybox="english-fcf" href="./img/3 File Filters.png" data-caption="Configure Search - Select which files to include and exclude.">
+        <img width="200px" src="./img/3 File Filters.png">
+    </a>
+    <a data-fancybox="english-fcf" href="./img/4 Black List.png" data-caption="Configure Search - Select which folder to ignore.">
+        <img width="200px" src="./img/4 Black List.png">
+    </a>
+    <a data-fancybox="english-fcf" href="./img/6 Time Filters.png" data-caption="Configure Search - Include/exclude files based on their modificaion and creation times.">
+        <img width="200px" src="./img/6 Time Filters.png">
+    </a>
+    <a data-fancybox="english-fcf" href="./img/5 Image Search Language.png"  data-caption="Configure Search - Select OCR language.">
+        <img width="200px" src="./img/5 Image Search Language.png">
+    </a>
+<p>
 
 
 <strong>File Content Finder</strong> also supports searching in non Latin scripts:
 
-<a data-fancybox="cn-fcf" href="./img/1 Main Screen Chinese.png">
-    <img width="200px" src="./img/1 Main Screen Chinese.png">
-</a>
-<a data-fancybox="cn-fcf" href="./img/2a Chinese Search in Progress.png">
-    <img width="200px" src="./img/2a Chinese Search in Progress.png">
-</a>
-<a data-fancybox="cn-fcf" href="./img/2 Results Chinese.png">
-    <img width="200px" src="./img/2 Results Chinese.png">
-</a>
+<p class="image-gallery">
+    <a data-fancybox="cn-fcf" href="./img/1 Main Screen Chinese.png" data-caption="Search in Chinese.">
+        <img width="200px" src="./img/1 Main Screen Chinese.png">
+    </a>
+    <a data-fancybox="cn-fcf" href="./img/2a Chinese Search in Progress.png" data-caption="Search is in progres ...">
+        <img width="200px" src="./img/2a Chinese Search in Progress.png">
+    </a>
+    <a data-fancybox="cn-fcf" href="./img/2 Results Chinese.png" data-caption="Review search results. The table can be filtered.">
+        <img width="200px" src="./img/2 Results Chinese.png">
+    </a>
+<p>
 
 Stay tuned for more demos and tutorials.
 

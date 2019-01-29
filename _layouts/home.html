@@ -8,10 +8,6 @@
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
     <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
     <script src="{{ '/assets/js/respond.js' | relative_url }}"></script>
-
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.6/dist/jquery.fancybox.min.css" />
-    <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.6/dist/jquery.fancybox.min.js"></script>
-    
     <!--[if lt IE 9]>
       <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
@@ -23,24 +19,24 @@
   </head>
   <body>
       <div id="header">
-          <nav>
-              <li class="fork"><a href="/"><img height="15px" src="/assets/images/round-home-white.png" /></a></li>
-              <!-- <li class="downloads"><a href="{{ site.github.zip_url }}">ZIP</a></li> -->
-              <li class="downloads">
-                <a href="/products/file-content-finder">
-                  <img height="12px" src="/assets/images/logo-tiny.png" /> File Content Finder
-                </a>
-              </li>
-              <li class="title">PRODUCTS</li>
-            </nav>    
+        <nav>
+          <!-- <li class="fork"><a href="/"><img height="20px" src="/assets/images/round-home-white.png" /></a></li> -->
+          <!-- <li class="downloads"><a href="{{ site.github.zip_url }}">ZIP</a></li> -->
+          <li class="downloads">
+            <a href="/products/file-content-finder">
+              <img height="12px" src="/assets/images/logo-tiny.png" /> File Content Finder
+            </a>
+          </li>
+          <li class="title">PRODUCTS</li>
+        </nav>
       </div><!-- end header -->
 
     <div class="wrapper">
 
       <section>
         <div id="title">
-          <h1>File Content Finder</h1>
-          <p>Search in your file contents, not just by names!</p>
+          <h1>{{ site.title | default: site.github.repository_name }}</h1>
+          <p>{{ site.description | default: site.github.project_tagline }}</p>
           <hr>
           <!-- <span class="credits left">Project maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></span> -->
           <!-- <span class="credits right">Hosted on GitHub Pages &mdash; Theme by <a href="https://twitter.com/mattgraham">mattgraham</a></span> -->
@@ -64,4 +60,3 @@
     {% endif %}
   </body>
 </html>
-

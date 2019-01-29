@@ -1,14 +1,17 @@
 ---
-layout: default
+layout: home
 ---
 
 <!-- # What is it? -->
 
-<strong>Geo Systems Dev PTY LTD</strong> is niche Australian software
-application development studio. We focus on developing simple
-single-purpose utilities to make your professional life more efficient.
+<strong>Geo Systems Dev PTY LTD</strong> is a niche Australian software
+application development studio. We deliver simple
+single-purpose applications to make your professional life more efficient.
+We focus on functionality and simple user interface, 
+not hype and marketing materials.
 
-Check out our pilot project <a href="/products/file-content-finder">File Content Finder</a>.
+Check out our pilot project 
+<a href="/products/file-content-finder">File Content Finder</a>.
 
 Stay tuned for more details on our new products!
 
