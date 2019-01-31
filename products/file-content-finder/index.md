@@ -23,22 +23,22 @@ Here is a showcase of the main functionalities and settings:
 <!-- Fancy Box doco - https://fancyapps.com/fancybox/3/docs/#images -->
 <p class="image-gallery">
     <a data-fancybox="english-fcf" href="./img/1 Main Screen English.png" data-caption="Select folder and search phrase.">
-        <img width="200px" src="./img/1 Main Screen English.png">
+        <img width="200px" src="./img/1 Main Screen English.png.jpg">
     </a>
     <a data-fancybox="english-fcf" href="./img/2 Results English.png" data-caption="Review search results. The table can be filtered.">
-        <img width="200px" src="./img/2 Results English.png">
+        <img width="200px" src="./img/2 Results English.png.jpg">
     </a>
     <a data-fancybox="english-fcf" href="./img/3 File Filters.png" data-caption="Configure Search - Select which files to include and exclude.">
-        <img width="200px" src="./img/3 File Filters.png">
+        <img width="200px" src="./img/3 File Filters.png.jpg">
     </a>
     <a data-fancybox="english-fcf" href="./img/4 Black List.png" data-caption="Configure Search - Select which folder to ignore.">
-        <img width="200px" src="./img/4 Black List.png">
+        <img width="200px" src="./img/4 Black List.png.jpg">
     </a>
-    <a data-fancybox="english-fcf" href="./img/6 Time Filters.png" data-caption="Configure Search - Include/exclude files based on their modificaion and creation times.">
-        <img width="200px" src="./img/6 Time Filters.png">
+    <a data-fancybox="english-fcf" href="./img/5 Time Filters.png" data-caption="Configure Search - Include/exclude files based on their modificaion and creation times.">
+        <img width="200px" src="./img/5 Time Filters.png.jpg">
     </a>
-    <a data-fancybox="english-fcf" href="./img/5 Image Search Language.png"  data-caption="Configure Search - Select OCR language.">
-        <img width="200px" src="./img/5 Image Search Language.png">
+    <a data-fancybox="english-fcf" href="./img/6 Image Search Language.png"  data-caption="Configure Search - Select OCR language.">
+        <img width="200px" src="./img/6 Image Search Language.png.jpg">
     </a>
 <p>
 
@@ -47,13 +47,13 @@ Here is a showcase of the main functionalities and settings:
 
 <p class="image-gallery">
     <a data-fancybox="cn-fcf" href="./img/1 Main Screen Chinese.png" data-caption="Search in Chinese.">
-        <img width="200px" src="./img/1 Main Screen Chinese.png">
+        <img width="200px" src="./img/1 Main Screen Chinese.png.jpg">
     </a>
     <a data-fancybox="cn-fcf" href="./img/2a Chinese Search in Progress.png" data-caption="Search is in progres ...">
-        <img width="200px" src="./img/2a Chinese Search in Progress.png">
+        <img width="200px" src="./img/2a Chinese Search in Progress.png.jpg">
     </a>
     <a data-fancybox="cn-fcf" href="./img/2 Results Chinese.png" data-caption="Review search results. The table can be filtered.">
-        <img width="200px" src="./img/2 Results Chinese.png">
+        <img width="200px" src="./img/2 Results Chinese.png.jpg">
     </a>
 <p>
 

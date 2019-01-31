@@ -205,6 +205,13 @@ dt {
         }
       }
 
+      a.home-icon {
+        padding: 5px 6px !important;
+        img {
+          height: 22px; 
+        }
+      }
+
       &.fork {
         float: left;
         margin-left: 0px;
