@@ -5,3 +5,4 @@ show_downloads: false
 google_analytics:
 plugins:
 - jekyll-seo-tag
+- jekyll-sitemap

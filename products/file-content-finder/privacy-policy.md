@@ -1,5 +1,6 @@
 ---
 layout: fcf
+title: File Content Finder, Privacy Policy
 ---
 
 <h1>Privacy Policy</h1>
