@@ -3,3 +3,5 @@ title: Geo Systems Developers
 description: No fluff, just apps that work!
 show_downloads: false
 google_analytics:
+plugins:
+- jekyll-seo-tag
