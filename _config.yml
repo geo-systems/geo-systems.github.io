@@ -1,5 +1,6 @@
 theme: jekyll-theme-midnight
 title: Geo Systems Developers
+url: https://geosytemsdev.com
 description: No fluff, just apps that work!
 show_downloads: false
 google_analytics:
