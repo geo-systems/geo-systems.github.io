@@ -25,13 +25,13 @@ Supported file formats:
 <div class="buy-from-stores-container">
     <div class="buy-from-store-link">
         <a href="https://itunes.apple.com/au/app/file-content-finder/id1448621435" target="_">
-            <img src="/products/file-content-finder/download_apple_store_320.png"/>
+            <img src="/products/file-content-finder/download_apple_store_320.png" alt="Apple Store" />
         </a>
         <p class="buy-store-ghost-caption">&nbsp;</p>
     </div>
     <div class="buy-from-store-link buy-from-store-link-disabled">
         <!-- <a href="#"> -->
-            <img src="/products/file-content-finder/download_microsoft_store_320_sized.png"/>
+            <img src="/products/file-content-finder/download_microsoft_store_320_sized.png" alt="Microsoft Store" />
         <!-- </a> -->
         <p class="buy-store-ghost-caption">coming soon ...</p>
     </div>
@@ -42,22 +42,22 @@ Here is a showcase of the main functionalities and settings:
 <!-- Fancy Box doco - https://fancyapps.com/fancybox/3/docs/#images -->
 <p class="image-gallery">
     <a data-fancybox="english-fcf" href="./screenshots/1 Main Screen English.png" data-caption="Select folder and search phrase.">
-        <img width="200px" src="./screenshots/1 Main Screen English.png.jpg">
+        <img width="200px" src="./screenshots/1 Main Screen English.png.jpg"  alt="Screenshot" />
     </a>
     <a data-fancybox="english-fcf" href="./screenshots/2 Results English.png" data-caption="Review search results. The table can be filtered.">
-        <img width="200px" src="./screenshots/2 Results English.png.jpg">
+        <img width="200px" src="./screenshots/2 Results English.png.jpg"  alt="Screenshot" />
     </a>
     <a data-fancybox="english-fcf" href="./screenshots/3 File Filters.png" data-caption="Configure Search - Select which files to include and exclude.">
-        <img width="200px" src="./screenshots/3 File Filters.png.jpg">
+        <img width="200px" src="./screenshots/3 File Filters.png.jpg"  alt="Screenshot" />
     </a>
     <a data-fancybox="english-fcf" href="./screenshots/4 Black List.png" data-caption="Configure Search - Select which folder to ignore.">
-        <img width="200px" src="./screenshots/4 Black List.png.jpg">
+        <img width="200px" src="./screenshots/4 Black List.png.jpg" alt="Screenshot" />
     </a>
     <a data-fancybox="english-fcf" href="./screenshots/5 Time Filters.png" data-caption="Configure Search - Include/exclude files based on their modificaion and creation times.">
-        <img width="200px" src="./screenshots/5 Time Filters.png.jpg">
+        <img width="200px" src="./screenshots/5 Time Filters.png.jpg" alt="Screenshot" />
     </a>
     <a data-fancybox="english-fcf" href="./screenshots/6 Image Search Language.png"  data-caption="Configure Search - Select OCR language.">
-        <img width="200px" src="./screenshots/6 Image Search Language.png.jpg">
+        <img width="200px" src="./screenshots/6 Image Search Language.png.jpg   alt="Screenshot" /">
     </a>
 <p>
 
