@@ -57,7 +57,7 @@ Here is a showcase of the main functionalities and settings:
         <img width="200px" src="./screenshots/5 Time Filters.png.jpg" alt="Screenshot" />
     </a>
     <a data-fancybox="english-fcf" href="./screenshots/6 Image Search Language.png"  data-caption="Configure Search - Select OCR language.">
-        <img width="200px" src="./screenshots/6 Image Search Language.png.jpg   alt="Screenshot" /">
+        <img width="200px" src="./screenshots/6 Image Search Language.png.jpg" alt="Screenshot" />
     </a>
 <p>
 
