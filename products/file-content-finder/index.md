@@ -19,7 +19,7 @@ Supported file formats:
 - **MS Excel** - xls, xlsx, and others;
 - **Libre/Open Office** - odt, ods, and others;
 - **RTF** - only on Mac OS;
-- Images (png, jpg) - requires Tesseract installation. Images must be high resolution and quality;
+- Images (**png**, **jpg**) - images must be high resolution and quality;
 - Text and source files - txt, markdown, and others.
 
 <div class="buy-from-stores-container">
