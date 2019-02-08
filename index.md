@@ -1,6 +1,8 @@
 ---
 layout: home
 title: Geo Systems Dev PTY LTD
+description: Geo Systems Dev PTY LTD is a niche Australian software
+    application development studio. Our pilot project is File Content Finder.
 ---
 
 <!-- # What is it? -->
