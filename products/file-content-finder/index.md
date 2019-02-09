@@ -41,40 +41,26 @@ Here is a showcase of the main functionalities and settings:
 
 <!-- Fancy Box doco - https://fancyapps.com/fancybox/3/docs/#images -->
 <p class="image-gallery">
-    <a data-fancybox="english-fcf" href="./screenshots/1 Main Screen English.png" data-caption="Select folder and search phrase.">
-        <img width="200px" src="./screenshots/1 Main Screen English.png.jpg"  alt="Screenshot" />
+    <a data-fancybox="english-fcf" href="./screenshots/English Search.png" data-caption="Search in English.">
+        <img width="200px" src="./screenshots/English Search.png.jpg"  alt="Screenshot" />
     </a>
-    <a data-fancybox="english-fcf" href="./screenshots/2 Results English.png" data-caption="Review search results. The table can be filtered.">
-        <img width="200px" src="./screenshots/2 Results English.png.jpg"  alt="Screenshot" />
+    <a data-fancybox="english-fcf" href="./screenshots/Chinese Search.png" data-caption="Search in Chinese.">
+        <img width="200px" src="./screenshots/Chinese Search.png.jpg"  alt="Screenshot" />
     </a>
-    <a data-fancybox="english-fcf" href="./screenshots/3 File Filters.png" data-caption="Configure Search - Select which files to include and exclude.">
-        <img width="200px" src="./screenshots/3 File Filters.png.jpg"  alt="Screenshot" />
+    <a data-fancybox="english-fcf" href="./screenshots/Settings - 1 File Filters.png" data-caption="Configure Search - Select which files to include and exclude.">
+        <img width="200px" src="./screenshots/Settings - 1 File Filters.png.jpg"  alt="Screenshot" />
     </a>
-    <a data-fancybox="english-fcf" href="./screenshots/4 Black List.png" data-caption="Configure Search - Select which folder to ignore.">
-        <img width="200px" src="./screenshots/4 Black List.png.jpg" alt="Screenshot" />
+    <a data-fancybox="english-fcf" href="./screenshots/Settings - 2 Black list.png" data-caption="Configure Search - Select which folder to ignore.">
+        <img width="200px" src="./screenshots/Settings - 2 Black list.png.jpg" alt="Screenshot" />
     </a>
-    <a data-fancybox="english-fcf" href="./screenshots/5 Time Filters.png" data-caption="Configure Search - Include/exclude files based on their modificaion and creation times.">
-        <img width="200px" src="./screenshots/5 Time Filters.png.jpg" alt="Screenshot" />
+    <a data-fancybox="english-fcf" href="./screenshots/Settings - 3 Time Filters.png" data-caption="Configure Search - Include/exclude files based on their modificaion and creation times.">
+        <img width="200px" src="./screenshots/Settings - 3 Time Filters.png.jpg" alt="Screenshot" />
     </a>
-    <a data-fancybox="english-fcf" href="./screenshots/6 Image Search Language.png"  data-caption="Configure Search - Select OCR language.">
-        <img width="200px" src="./screenshots/6 Image Search Language.png.jpg" alt="Screenshot" />
-    </a>
-<p>
-
-
-<strong>File Content Finder</strong> also supports searching in non Latin scripts:
-
-<p class="image-gallery">
-    <a data-fancybox="cn-fcf" href="./screenshots/1 Main Screen Chinese.png" data-caption="Search in Chinese.">
-        <img width="200px" src="./screenshots/1 Main Screen Chinese.png.jpg">
-    </a>
-    <a data-fancybox="cn-fcf" href="./screenshots/2a Chinese Search in Progress.png" data-caption="Search is in progres ...">
-        <img width="200px" src="./screenshots/2a Chinese Search in Progress.png.jpg">
-    </a>
-    <a data-fancybox="cn-fcf" href="./screenshots/2 Results Chinese.png" data-caption="Review search results. The table can be filtered.">
-        <img width="200px" src="./screenshots/2 Results Chinese.png.jpg">
+    <a data-fancybox="english-fcf" href="./screenshots/Settings - 4 OCR Language.png"  data-caption="Configure Search - Select OCR language.">
+        <img width="200px" src="./screenshots/Settings - 4 OCR Language.png.jpg" alt="Screenshot" />
     </a>
 <p>
+
 
 Stay tuned for more demos and tutorials.
 
