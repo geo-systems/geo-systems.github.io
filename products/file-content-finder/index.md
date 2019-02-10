@@ -13,6 +13,17 @@ Unlike most other search utilities, which only search by file names,
 <strong>File Content Finder</strong> can inspect the content of many popular
 documents. It works in real time and does not require indexing.
 
+<p class="image-gallery">
+    <a data-fancybox href="#myVideo">
+        <img width="250px" src="./fcf-overview-thumbnail.png" alt="Demo" />
+    </a>
+</p>
+
+<video controls id="myVideo" style="display:none;" class='video-js' controls preload='auto' data-setup='{}'>
+    <source src="/products/file-content-finder/fcf-from-youtube.mp4" type="video/mp4">
+    Your browser doesn't support HTML5 video tag.
+</video>
+
 Supported file formats:
 - **PDF**;
 - **MS Word** - doc, docx, and others;
