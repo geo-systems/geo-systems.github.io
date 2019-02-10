@@ -10,28 +10,15 @@ description: File Content Finder is a desktop app for searching in file contents
 
 <strong>File Content Finder</strong> is a desktop app for searching in file contents.
 Unlike most other search utilities, which only search by file names,
-<strong>File Content Finder</strong> can inspect the content of many popular
-documents. It works in real time and does not require indexing.
+it can inspect the content of many popular
+documents and works in real time without indexing.
 
 <p class="image-gallery">
-    <a data-fancybox href="#myVideo">
-        <img width="250px" src="./fcf-overview-thumbnail.png" alt="Demo" />
-    </a>
-</p>
-
-<video controls id="myVideo" style="display:none;" class='video-js' controls preload='auto' data-setup='{}'>
+<video controls id="myVideo" width="100%" class='video-js' controls preload='auto' data-setup='{}'>
     <source src="/products/file-content-finder/fcf-from-youtube.mp4" type="video/mp4">
     Your browser doesn't support HTML5 video tag.
 </video>
-
-Supported file formats:
-- **PDF**;
-- **MS Word** - doc, docx, and others;
-- **MS Excel** - xls, xlsx, and others;
-- **Libre/Open Office** - odt, ods, and others;
-- **RTF** - only on Mac OS;
-- Images (**png**, **jpg**) - images must be high resolution and quality;
-- Text and source files - txt, markdown, and others.
+</p>
 
 <div class="buy-from-stores-container">
     <div class="buy-from-store-link">
@@ -48,10 +35,19 @@ Supported file formats:
     </div>
 </div>
 
-Here is a showcase of the main functionalities and settings:
+<strong>File Content Finder</strong> supports the following file formats:
+- **PDF**;
+- **MS Word** - doc, docx, and others;
+- **MS Excel** - xls, xlsx, and others;
+- **Libre/Open Office** - odt, ods, and others;
+- **RTF** - only on Mac OS;
+- Images (**png**, **jpg**) - images must be high resolution and quality;
+- Text and source files - txt, markdown, and others.
+
+<!-- Here is a showcase of the main functionalities and settings: -->
 
 <!-- Fancy Box doco - https://fancyapps.com/fancybox/3/docs/#images -->
-<p class="image-gallery">
+<!-- <p class="image-gallery">
     <a data-fancybox="english-fcf" href="./screenshots/English Search.png" data-caption="Search in English.">
         <img width="200px" src="./screenshots/English Search.png.jpg"  alt="Screenshot" />
     </a>
@@ -70,9 +66,6 @@ Here is a showcase of the main functionalities and settings:
     <a data-fancybox="english-fcf" href="./screenshots/Settings - 4 OCR Language.png"  data-caption="Configure Search - Select OCR language.">
         <img width="200px" src="./screenshots/Settings - 4 OCR Language.png.jpg" alt="Screenshot" />
     </a>
-<p>
+<p> -->
 
-
-Stay tuned for more demos and tutorials.
-
-Until then, feel free to <a href="mailto:info@geosytemsdev.com">email us</a> for any inquiries.
+Stay tuned for more demos and tutorials. Until then, feel free to <a href="mailto:info@geosytemsdev.com">email us</a> for any inquiries.
