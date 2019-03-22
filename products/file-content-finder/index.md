@@ -2,7 +2,7 @@
 layout: fcf
 title: File Content Finder
 subtitle: Search in your file contents, not just by names!
-description: File Content Finder is a desktop app for searching in file contents.
+description: File Content Finder is a desktop app for searching text in file contents.
     It works in real time and does not require indexing.
 ---
 
