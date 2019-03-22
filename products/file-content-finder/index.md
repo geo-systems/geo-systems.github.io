@@ -9,7 +9,7 @@ description: File Content Finder is a desktop app for searching in file contents
 <!-- # What is it? -->
 
 <strong>File Content Finder</strong> is a desktop app for searching in file contents.
-Unlike most other search utilities, which only search by file names,
+Unlike most other search programs, which only search by file names,
 it can inspect the content of many popular
 documents and works in real time without indexing.
 
@@ -43,6 +43,11 @@ documents and works in real time without indexing.
 - **RTF** - only on Mac OS;
 - Images (**png**, **jpg**) - images must be high resolution and quality;
 - Text and source files - txt, markdown, and others.
+
+<strong>File Content Finder</strong> works has advanced filtering capabilities 
+so you can optimise your search and find quickly
+the right document. Multiple scripts and languages like Russian Cyrillic, Chinese, 
+Japanese and others are supported out of the box.
 
 <!-- Here is a showcase of the main functionalities and settings: -->
 
