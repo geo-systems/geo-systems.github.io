@@ -31,6 +31,7 @@ documents and works in real time without indexing.
         <a href="https://www.microsoft.com/en-au/p/file-content-finder/9mzc4sk6j6bp">
             <img src="/products/file-content-finder/download_microsoft_store_320_sized.png" alt="Microsoft Store" />
         </a>
+        <p class="buy-store-ghost-caption">&nbsp;</p>
     </div>
 </div>
 
