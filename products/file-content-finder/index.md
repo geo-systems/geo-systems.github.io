@@ -44,7 +44,7 @@ documents and works in real time without indexing.
 - Images (**png**, **jpg**) - images must be high resolution and quality;
 - Text and source files - txt, markdown, and others.
 
-<strong>File Content Finder</strong> works has advanced filtering capabilities 
+<strong>File Content Finder</strong> has advanced filtering capabilities 
 so you can optimise your search and find quickly
 the right document. Multiple scripts and languages like Russian Cyrillic, Chinese, 
 Japanese and others are supported out of the box.
