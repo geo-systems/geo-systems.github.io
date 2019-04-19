@@ -73,4 +73,4 @@ Japanese and others are supported out of the box.
     </a>
 <p> -->
 
-Stay tuned for more demos and tutorials. Until then, feel free to <a href="mailto:info@geosytemsdev.com">email us</a> for any inquiries.
+Stay tuned for more demos and tutorials. Until then, feel free to <a href="mailto:geo.systems.developer@gmail.com">email us</a> for any inquiries.
