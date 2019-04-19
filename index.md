@@ -42,4 +42,4 @@ are supported out of the box.
 
 <h2>Get in touch</h2>
 
-Please feel free to <a href="mailto:info@geosytemsdev.com">email us</a> for any inquiries.
+Please feel free to <a href="mailto:geo.systems.developer@gmail.com">email us</a> for any inquiries.
