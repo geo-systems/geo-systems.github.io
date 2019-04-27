@@ -18,6 +18,11 @@
     <!-- If you'd like to support IE8 (for Video.js versions prior to v7) -->
     <script src="https://vjs.zencdn.net/ie8/ie8-version/videojs-ie8.min.js"></script>
 
+    <!-- https://www.w3schools.com/howto/howto_css_social_media_buttons.asp -->
+    <!-- Add icon library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
     <!--[if lt IE 9]>
       <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
@@ -47,16 +52,13 @@
           <h1>{{ page.title | default: site.title }}</h1>
           <p>{{ page.subtitle | default: site.subtitles }}</p>
           <p>
-            <a href="https://twitter.com/file_finder" target="_">
-              <img height="25px" src="/assets/images/twitter.svg" alt="Twitter" target="_" />
+            <a class="fa fa-twitter" href="https://twitter.com/file_finder" target="_" />
             </a>
-            &nbsp &nbsp
-            <a href="https://www.youtube.com/channel/UC9qyQBk8yta-FsWef-d_PXQ" target="_">
-              <img height="23px" src="/assets/images/youtube.svg" alt="Youtube" target="_" />
+            <a class="fa fa-youtube" href="https://www.youtube.com/channel/UC9qyQBk8yta-FsWef-d_PXQ" target="_" />
             </a>
-            &nbsp &nbsp
-            <a href="https://www.instagram.com/file_content_finder/" target="_">
-              <img height="27px" src="/assets/images/instagram.svg" alt="Instagram" target="_" />
+            <a class="fa fa-linkedin" href="https://www.linkedin.com/showcase/file-content-finder" target="_" />
+            </a>
+            <a class="fa fa-instagram" href="https://www.instagram.com/file_content_finder/" target="_" />
             </a>
           </p>
           <hr>

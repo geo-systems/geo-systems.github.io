@@ -25,13 +25,11 @@ documents and works in real time without indexing.
         <a href="https://itunes.apple.com/au/app/file-content-finder/id1448621435" target="_">
             <img src="/products/file-content-finder/download_apple_store_320.png" alt="Apple Store" />
         </a>
-        <p class="buy-store-ghost-caption">&nbsp;</p>
     </div>
     <div class="buy-from-store-link">
         <a href="https://www.microsoft.com/en-au/p/file-content-finder/9mzc4sk6j6bp">
             <img src="/products/file-content-finder/download_microsoft_store_320_sized.png" alt="Microsoft Store" />
         </a>
-        <p class="buy-store-ghost-caption">&nbsp;</p>
     </div>
 </div>
 
