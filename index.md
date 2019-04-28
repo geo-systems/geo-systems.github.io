@@ -20,6 +20,7 @@ not hype and marketing materials.
 
 Our pilot product <a href="/products/file-content-finder">File Content Finder</a>
 is all about powerful and hassle free file search.
+It is a must have tool for the modern knowledge worker.
 
 It lets you specify a search phrase and finds all documents which contain it. 
 Other tools only search by file names. 

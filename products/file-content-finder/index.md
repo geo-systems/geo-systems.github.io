@@ -1,7 +1,7 @@
 ---
 layout: fcf
 title: File Content Finder
-subtitle: Search in your file contents, not just by names!
+subtitle: Search your files by contents, not just by names!
 description: File Content Finder is a desktop app for searching text in file contents.
     It works in real time and does not require indexing.
 ---
@@ -9,8 +9,16 @@ description: File Content Finder is a desktop app for searching text in file con
 <!-- # What is it? -->
 
 <strong>File Content Finder</strong> is a desktop app for searching in file contents.
+It is a must have tool for the modern knowledge worker.
+
+Have you got heaps of documents in different formats? Did you ever want to search
+across all of them to find the rigth contract or research paper? 
+<strong>File Content Finder</strong> has got you covered.
+It is the perfect tool for academics, educators, administrators, and
+other knowledge workers.
+
 Unlike most other search programs, which only search by file names,
-it can inspect the content of many popular
+it can inspect the actual content of many popular
 documents and works in real time without indexing.
 
 <p class="image-gallery">
@@ -38,14 +46,24 @@ documents and works in real time without indexing.
 - **MS Word** - doc, docx, and others;
 - **MS Excel** - xls, xlsx, and others;
 - **Libre/Open Office** - odt, ods, and others;
-- **RTF** - only on Mac OS;
 - Images (**png**, **jpg**) - images must be high resolution and quality;
 - Text and source files - txt, markdown, and others.
+- **RTF** - only on Mac OS;
 
 <strong>File Content Finder</strong> has advanced filtering capabilities 
 so you can optimise your search and find quickly
-the right document. Multiple scripts and languages like Russian Cyrillic, Chinese, 
+the right document. 
+
+To speed up the process, you can filter out files by type, 
+creation and last modification date, and more.
+Multiple scripts and languages like Russian Cyrillic, Chinese, 
 Japanese and others are supported out of the box.
+
+The app also supports network file shares (e.g. SMB, FTP, AFP) 
+if they are mounted as volumes. On Mac, for example, using the top menu navigate to 
+`Go` -> `Connect to Server...`,
+Then enter the server address and credentials. 
+The network share will appear in Finder as a Volume and will be selectable from the app.
 
 <!-- Here is a showcase of the main functionalities and settings: -->
 
