@@ -11,7 +11,7 @@ description: File Content Finder is a desktop app for searching text in file con
 <strong>File Content Finder</strong> is a desktop app for searching in file contents.
 It is a must have tool for the modern knowledge worker.
 
-Have you got heaps of documents in different formats? Did you ever want to search
+Do you have heaps of documents in different formats? Did you ever want to search
 across all of them to find the rigth contract or research paper? 
 <strong>File Content Finder</strong> has got you covered.
 It is the perfect tool for academics, educators, administrators, and
