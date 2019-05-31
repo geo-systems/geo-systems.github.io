@@ -4,7 +4,7 @@ url: https://geosytemsdev.com
 subtitle: No fluff, just apps that work!
 description: No fluff, just apps that work!
 show_downloads: false
-google_analytics: "UA-136522698-1"
+google_analytics: "UA-136522698-2"
 plugins:
 - jekyll-seo-tag
 - jekyll-sitemap
