@@ -89,4 +89,4 @@ The network share will appear in Finder as a Volume and will be selectable from 
     </a>
 <p> -->
 
-Stay tuned for more demos and tutorials. Until then, feel free to <a href="mailto:geo.systems.developer@gmail.com">email us</a> for any inquiries.
+Stay tuned for more demos and tutorials. Until then, feel free to <a href="mailto:geo.systems.developer@gmail.com?subject=Regarding%20File%20Content%20Finder">email us</a> for any inquiries.

@@ -7,10 +7,10 @@ description: Data Transformer is an offline desktop app for conveting between po
 
 <!-- # What is it? -->
 
-<strong>Data Transformer</strong> is an offline desktop app for conveting between popular data formats.
+<strong>Data Transformer</strong> is an offline desktop app for converting between popular data formats.
 
 Do you need to send a JSON or YML file to your colleagues while your data is in a spreadsheet? 
-Did you need to load XML or JSON files into a spreadsheet for analytics or reporting?
+Do you need to load XML or JSON files into a spreadsheet for analytics or reporting?
 <strong>Data Transformer</strong> has got you covered.
 
 It is the perfect tool to transform data from one format to the other. 
@@ -24,25 +24,25 @@ Hence, you can rest assured that your data stays on your computer.
 
 <div class="buy-from-stores-container">
     <div class="buy-from-store-link buy-from-store-link-disabled">
-        <a href="#" target="_">
+        <!-- <a href="#" target="_"> -->
             <img src="/products/file-content-finder/download_apple_store_320.png" alt="Apple Store" />
-        </a>
+        <!-- </a> -->
         <p class="buy-store-ghost-caption">Coming soon ...</p>
     </div>
     <div class="buy-from-store-link buy-from-store-link-disabled">
-        <a href="#">
+        <!-- <a href="#"> -->
             <img src="/products/file-content-finder/download_microsoft_store_320_sized.png" alt="Microsoft Store" />
-        </a>
+        <!-- </a> -->
         <p class="buy-store-ghost-caption">Coming soon ...</p>
     </div>
 </div>
 
 <strong>Data Transformer</strong> supports the following data formats:
-- **CSV** and all of its variations (e.g. TSV);
-- **XML**;
-- **YML**;
-- **JSON**;
-- More formats are to come;
+- [Comma-Separated Values (**CSV**)](https://en.wikipedia.org/wiki/Comma-separated_values) and all of its variations (e.g. TSV);
+- [Extensible Markup Language (**XML**)](https://www.w3schools.com/xml/xml_whatis.asp);
+- [**YML**](https://en.wikipedia.org/wiki/YAML);
+- [JavaScript Object Notation (**JSON**)](https://www.w3schools.com/whatis/whatis_json.asp);
+- More formats are to come!
 
 With <strong>Data Transformer</strong> you can either open a file with your data or directly paste/enter the input data content in the app.  
 
