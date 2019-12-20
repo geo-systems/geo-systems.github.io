@@ -23,10 +23,10 @@ Hence, you can rest assured that your data stays on your computer.
 
 
 <div class="buy-from-stores-container">
-    <div class="buy-from-store-link buy-from-store-link-disabled">
-        <!-- <a href="#" target="_"> -->
+    <div class="buy-from-store-link">
+        <a href="https://apps.apple.com/us/app/data-transformer/id1490843070" target="_">
             <img src="/products/file-content-finder/download_apple_store_320.png" alt="Apple Store" />
-        <!-- </a> -->
+        </a>
         <p class="buy-store-ghost-caption">Coming soon ...</p>
     </div>
     <div class="buy-from-store-link buy-from-store-link-disabled">
