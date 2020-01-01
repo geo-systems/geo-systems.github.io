@@ -30,10 +30,10 @@ Hence, you can rest assured that your data stays on your computer.
         <p class="buy-store-ghost-caption"> </p>
     </div>
     <div class="buy-from-store-link buy-from-store-link-disabled">
-        <!-- <a href="#"> -->
+        <a href="https://www.microsoft.com/en-au/p/data-transformer/9p2xp6nt2pv2">
             <img src="/products/file-content-finder/download_microsoft_store_320_sized.png" alt="Microsoft Store" />
-        <!-- </a> -->
-        <p class="buy-store-ghost-caption">Coming soon ...</p>
+        </a>
+        <p class="buy-store-ghost-caption"> </p>
     </div>
 </div>
 
