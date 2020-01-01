@@ -29,7 +29,7 @@ Hence, you can rest assured that your data stays on your computer.
         </a>
         <p class="buy-store-ghost-caption"> </p>
     </div>
-    <div class="buy-from-store-link buy-from-store-link-disabled">
+    <div class="buy-from-store-link">
         <a href="https://www.microsoft.com/en-au/p/data-transformer/9p2xp6nt2pv2">
             <img src="/products/file-content-finder/download_microsoft_store_320_sized.png" alt="Microsoft Store" />
         </a>
