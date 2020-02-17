@@ -10,11 +10,11 @@ description: Data Transformer is an offline desktop app for conveting between po
 <strong>Data Transformer</strong> is an offline desktop app for converting between popular data formats.
 
 Do you need to send a JSON or YML file to your colleagues while your data is in a spreadsheet? 
-Do you need to load XML or JSON files into a spreadsheet for analytics or reporting?
+Do you need to load XML or JSON files into a spreadsheet or SQL database for analytics or reporting?
 <strong>Data Transformer</strong> has got you covered.
 
 It is the perfect tool to transform data from one format to the other. 
-While the user interface is simple and intuitive, it offers a myriad of options for all possible corner cases.
+While the user interface is simple and intuitive, it offers a myriad of options for all situations.
 
 Unlike most other conversion programs and websites, which send your data on the public Internet,
 <strong>Data Transformer</strong> keeps your data offline on your computer. On Mac, this is ensured by
@@ -39,9 +39,10 @@ Hence, you can rest assured that your data stays on your computer.
 
 <strong>Data Transformer</strong> supports the following data formats:
 - [Comma-Separated Values (**CSV**)](https://en.wikipedia.org/wiki/Comma-separated_values) and all of its variations (e.g. TSV);
+- [JavaScript Object Notation (**JSON**)](https://www.w3schools.com/whatis/whatis_json.asp);
 - [Extensible Markup Language (**XML**)](https://www.w3schools.com/xml/xml_whatis.asp);
 - [**YML**](https://en.wikipedia.org/wiki/YAML);
-- [JavaScript Object Notation (**JSON**)](https://www.w3schools.com/whatis/whatis_json.asp);
+- **SQL** with creation and insertion. SQL scripts can be created from CSV, JSON, XML, or YML. 
 - More formats are to come!
 
 With <strong>Data Transformer</strong> you can either open a file with your data or directly paste/enter the input data content in the app.  
