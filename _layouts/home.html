@@ -6,7 +6,7 @@
 
     {% seo description=false %}
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
-    <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
     <script src="{{ '/assets/js/respond.js' | relative_url }}"></script>
     <!--[if lt IE 9]>
       <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
@@ -20,23 +20,25 @@
     <!-- If you'd like to support IE8 (for Video.js versions prior to v7) -->
     <script src="https://vjs.zencdn.net/ie8/ie8-version/videojs-ie8.min.js"></script>
 
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5">
   </head>
   <body>
       <div id="header">
         <nav>
-          <!-- <li class="fork"><a href="/"><img height="20px" src="/assets/images/round-home-white.png" /></a></li> -->
-          <!-- <li class="downloads"><a href="{{ site.github.zip_url }}">ZIP</a></li> -->
-          <li class="downloads-btn">
-            <a href="/products/file-content-finder">
-              <img class="fcf-nav-button-logo" src="/assets/images/logo-fcf-tiny.png" alt="File Content Finder logo" />
-            </a>
-          </li>
-          <li class="downloads-btn">
-            <a href="/products/data-transformer">
-              <img class="fcf-nav-button-logo" src="/assets/images/logo-dt-tiny.png" alt="Data Transformer logo" /> 
-            </a>
-          </li>
+          <ol style="margin: 0;">
+            <!-- <li class="fork"><a href="/"><img height="20px" src="/assets/images/round-home-white.png" /></a></li> -->
+            <!-- <li class="downloads"><a href="{{ site.github.zip_url }}">ZIP</a></li> -->
+            <li class="downloads-btn">
+              <a href="/products/file-content-finder">
+                <img class="fcf-nav-button-logo" src="/assets/images/logo-fcf-tiny.png" alt="File Content Finder logo" />
+              </a>
+            </li>
+            <li class="downloads-btn">
+              <a href="/products/data-transformer">
+                <img class="fcf-nav-button-logo" src="/assets/images/logo-dt-tiny.png" alt="Data Transformer logo" /> 
+              </a>
+            </li>
+          </ol>
           <!-- <li class="title">PRODUCTS</li> -->
         </nav>
       </div><!-- end header -->
