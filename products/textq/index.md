@@ -22,9 +22,11 @@ Do you have a CSV files which is too big for MS Excel or other apps? <strong>Tex
 Unlike other apps, which send your data on the public Internet, <strong>TextQ</strong> keeps your data offline on your computer. On Mac, this is ensured by Apple’s sandbox - you can check the app permissions before installation and validate that the app doesn’t access the network. You can rest assured that your data stays on your computer.
 
 <div class="buy-from-stores-container">
-    <div class="buy-from-store-link buy-from-store-link-disabled">
-        <img src="/products/textq/download_apple_store_320.png" alt="Apple Store" />
-        <p class="buy-store-ghost-caption">Coming soon</p>
+    <div class="buy-from-store-link buy-from-store-link">
+        <a href="https://apps.apple.com/au/app/textq/id1571423170" target="_">
+            <img src="/products/textq/download_apple_store_320.png" alt="Apple Store" />
+        </a>
+        <p class="buy-store-ghost-caption"> </p>
     </div>
     <div class="buy-from-store-link buy-from-store-link-disabled">
         <img src="/products/textq/download_microsoft_store_320_sized.png" alt="Microsoft Store" />
