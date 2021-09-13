@@ -2,22 +2,28 @@
 layout: textq
 title: TextQ
 subtitle: Analyse and process large CSV files offline!
-description: TextQ is an offline desktop app for analysing and processing large tabular data (e.g. CSV files).
+description: TextQ is an offline app for analysing and processing tabular data (e.g. CSV files) via an intuitive UI query builder or SQL.
 ---
 
 <!-- # What is it? -->
 
-<strong>TextQ</strong> is an offline desktop app for analysing and processing tabular data (e.g. CSV files).
 
-Do you have a CSV files which is too big for MS Excel or other apps? <strong>TextQ</strong> is here to help! It allows you to:
+<strong>TextQ</strong> is an offline app for analysing and processing tabular data (e.g. CSV files) via an intuitive UI query builder or SQL.
 
+Do you have a CSV files which is too big for MS Excel or other apps? TexQ is here to help! It allows you to:
 - Load and preview the file;
 - Rename, reorder, and hide columns;
 - Change column formats (e.g. from text to number or date);
 - Parse dates and numbers in many formats, languages, and locales;
 - Filter rows using convenient UI query builder;
+- Query the data via SQL (including "group by" and other advanced queries);
+- Convert the UI builder's query to SQL;
 - Index columns for faster query (useful for huge files);
 - Export the result to CSV so that it can be loaded by other apps (e.g. MS Excel);
+
+
+Unlike other apps which send your data on the public Internet, TextQ keeps your data offline on your computer. On Mac, this is ensured by Apple’s sandbox - you can check the app permissions before installation and validate that the app doesn’t access the network. Hence, you can rest assured that your data stays on your computer.
+
 
 Unlike other apps, which send your data on the public Internet, <strong>TextQ</strong> keeps your data offline on your computer. On Mac, this is ensured by Apple’s sandbox - you can check the app permissions before installation and validate that the app doesn’t access the network. You can rest assured that your data stays on your computer.
 
