@@ -58,7 +58,7 @@ For the advanced users, <strong>TextQ</strong> offsers full SQL support.
 
 <p class="image-gallery">
 <video controls id="myVideo" width="100%" class='video-js' controls preload='auto' data-setup='{}'>
-    <source src="/products/file-content-finder/fcf-from-youtube.mp4" type="video/mp4">
+    <source src="/products/textq/TextQ.mp4" type="video/mp4">
     Your browser doesn't support HTML5 video tag.
 </video>
 </p>
