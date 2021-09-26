@@ -27,6 +27,14 @@ Unlike other apps which send your data on the public Internet, TextQ keeps your 
 
 Unlike other apps, which send your data on the public Internet, <strong>TextQ</strong> keeps your data offline on your computer. On Mac, this is ensured by Apple’s sandbox - you can check the app permissions before installation and validate that the app doesn’t access the network. You can rest assured that your data stays on your computer.
 
+
+<p class="image-gallery">
+<video controls id="myVideo" width="100%" class='video-js' controls preload='auto' data-setup='{}'>
+    <source src="/products/textq/TextQ.mp4" type="video/mp4">
+    Your browser doesn't support HTML5 video tag.
+</video>
+</p>
+
 <div class="buy-from-stores-container">
     <div class="buy-from-store-link buy-from-store-link">
         <a href="https://apps.apple.com/au/app/textq/id1571423170" target="_">
