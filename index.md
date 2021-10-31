@@ -2,7 +2,7 @@
 layout: home
 title: Geo Systems Dev PTY LTD
 description: Geo Systems Dev PTY LTD is a niche software
-    application development studio. Our pilot project is File Content Finder.
+    development studio. Our pilot project are File Content Finder, TextQ, and Data Transformer.
 ---
 
 <!-- # What is it? -->
@@ -10,10 +10,9 @@ description: Geo Systems Dev PTY LTD is a niche software
 <h2>About Us</h2>
 
 <strong>Geo Systems Dev PTY LTD</strong> is a niche software
-application development studio. We deliver simple
-single-purpose applications to make your professional life more efficient.
-We focus on functionality and simple user interface, 
-not hype and marketing materials.
+development studio. We deliver simple
+single-purpose applications to save you time.
+
 
 
 <h2>Products</h2>
@@ -45,11 +44,11 @@ are supported out of the box.
 
 <h3>TextQ</h3>
 
-Our latest app <a href="/products/textq">TextQ</a>
+Our latest product <a href="/products/textq">TextQ</a>
 is an offline tool for data analysis.
 
 
-It allows you to import bug CSV files which wouldn't normally fit in MS Excel.
+It allows you to import big CSV files which wouldn't normally fit in MS Excel.
 You can then preview the data, change columns (hide, rename, change types), query or filter
 the data, and export for further analysis.
 
