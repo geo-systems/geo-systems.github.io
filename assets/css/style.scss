@@ -74,16 +74,17 @@ a:active, a:focus {
 }
 
 // Social - based on https://www.w3schools.com/howto/howto_css_social_media_buttons.asp
-a.fa {
-    padding: 5px 6px;
+a.fab {
+    padding: 4px 6px;
     font-size: 25px !important;
     text-align: center;
     text-decoration: none;
-    margin: 5px 5px;
+    margin: 6px 6px;
     border-radius: 10%;
+    width: 28px;
 }
 
-.fa:hover {
+.fab:hover {
     opacity: 0.7;
 }
 
@@ -92,8 +93,8 @@ a.fa {
     color: white;
 }
 
-.fa-twitter {
-    background: #55ACEE;
+.fa-x-twitter {
+    background: black;
     color: white;
 }
 
@@ -179,21 +180,21 @@ a.fa {
 }
 
 .fa-yahoo {
-background: #430297;
-color: white;
+    background: #430297;
+    color: white;
 }
 
 .fa-soundcloud {
-background: #ff5500;
-color: white;
+    background: #ff5500;
+    color: white;
 }
 
 .fa-reddit {
-background: #ff5700;
-color: white;
+    background: #ff5700;
+    color: white;
 }
 
 .fa-rss {
-background: #ff6600;
-color: white;
+    background: #ff6600;
+    color: white;
 }
