@@ -1,5 +1,5 @@
 ---
-layout: math-plot
+layout: default
 title: HODLings, Privacy Policy
 ---
 
