@@ -51,6 +51,10 @@ body {
   -moz-osx-font-smoothing: grayscale;
   padding: 0;
   background: var(--bg-primary);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  > main { flex: 1; }
 }
 
 /* ===========================
