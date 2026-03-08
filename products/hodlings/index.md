@@ -1,7 +1,7 @@
 ---
 layout: default
 title: HODLings
-subtitle: Transform your data into a different format!
+subtitle: The Private Crypto Tracker. No accounts, no ads, and zero tracking.!
 description: The Private Crypto Tracker. No accounts, no ads, and zero tracking.
 ---
 
