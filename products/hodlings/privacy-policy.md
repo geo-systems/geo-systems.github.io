@@ -3,8 +3,6 @@ layout: default
 title: HODLings, Privacy Policy
 ---
 
-<h1>HODLings Privacy Policy</h1>
-
 <p>Effective date: February 06, 2026</p>
 
 <p><strong>Geo Systems Dev PTY LTD</strong> ("us", "we", or "our") operates the 

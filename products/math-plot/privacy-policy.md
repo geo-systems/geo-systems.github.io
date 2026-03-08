@@ -1,10 +1,7 @@
 ---
-layout: math-plot
+layout: default
 title: MathPlot, Privacy Policy
 ---
-
-<h1>MathPlot, Privacy Policy</h1>
-
 
 <p><strong>Geo Systems Dev PTY LTD</strong> ("us", "we", or "our") operates the 
 <strong>MathPlot</strong> Canva application (the "Service").</p>

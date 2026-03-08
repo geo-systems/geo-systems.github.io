@@ -1,8 +1,14 @@
 ---
-layout: textq
+layout: default
+canonical_url: https://geosystemsdev.com/products/textq/
 title: TextQ
 subtitle: Analyse and process large CSV files offline!
 description: TextQ is an offline app for analysing and processing tabular data (e.g. CSV files) via an intuitive UI query builder or SQL.
+schema:
+  type: SoftwareApplication
+  category: Utilities
+  os: macOS
+  download_url_1: https://apps.apple.com/au/app/textq/id1571423170
 ---
 
 <!-- # What is it? -->
@@ -48,4 +54,4 @@ Unlike other apps, which send your data on the public Internet, <strong>TextQ</s
     </div>
 </div>
 
-Stay tuned for more demos and tutorials. Until then, feel free to <a href="mailto:geo.systems.developer@gmail.com?subject=Regarding%20TextQ">email us</a> for any inquiries.
+Stay tuned for more demos and tutorials. Until then, feel free to <a href="mailto:support@geosystemsdev.com?subject=Regarding%20TextQ">email us</a> for any inquiries.

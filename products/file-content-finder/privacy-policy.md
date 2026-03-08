@@ -1,10 +1,7 @@
 ---
-layout: fcf
+layout: default
 title: File Content Finder, Privacy Policy
 ---
-
-<h1>Privacy Policy</h1>
-
 
 <p>Effective date: January 08, 2019</p>
 
@@ -49,6 +46,6 @@ title: File Content Finder, Privacy Policy
 <h2>Contact Us</h2>
 <p>If you have any questions about this Privacy Policy, please contact us:</p>
 <ul>
-        <li>By email: geo.systems.developer@gmail.com</li>
+        <li>By email: support@geosystemsdev.com</li>
           
 </ul>

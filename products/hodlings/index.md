@@ -1,8 +1,13 @@
 ---
 layout: default
+canonical_url: https://geosystemsdev.com/products/hodlings/
 title: HODLings
-subtitle: The Private Crypto Tracker. No accounts, no ads, and zero tracking.!
+subtitle: The Private Crypto Tracker. No accounts, no ads, and zero tracking!
 description: The Private Crypto Tracker. No accounts, no ads, and zero tracking.
+schema:
+  type: SoftwareApplication
+  category: Finance
+  os: iOS, Android
 ---
 
 <!-- # What is it? -->

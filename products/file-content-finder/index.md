@@ -1,9 +1,16 @@
 ---
-layout: fcf
+layout: default
+canonical_url: https://geosystemsdev.com/products/file-content-finder/
 title: File Content Finder
 subtitle: Search your files by contents, not just by names!
 description: File Content Finder is a desktop app for searching text in file contents.
     It works in real time and does not require indexing.
+schema:
+  type: SoftwareApplication
+  category: Utilities
+  os: macOS, Windows
+  download_url_1: https://itunes.apple.com/au/app/file-content-finder/id1448621435
+  download_url_2: https://www.microsoft.com/en-au/p/file-content-finder/9mzc4sk6j6bp
 ---
 
 <!-- # What is it? -->
@@ -89,4 +96,4 @@ The network share will appear in Finder as a Volume and will be selectable from 
     </a>
 <p> -->
 
-Stay tuned for more demos and tutorials. Until then, feel free to <a href="mailto:geo.systems.developer@gmail.com?subject=Regarding%20File%20Content%20Finder">email us</a> for any inquiries.
+Stay tuned for more demos and tutorials. Until then, feel free to <a href="mailto:support@geosystemsdev.com?subject=Regarding%20File%20Content%20Finder">email us</a> for any inquiries.

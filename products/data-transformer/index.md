@@ -1,8 +1,15 @@
 ---
-layout: dt
+layout: default
+canonical_url: https://geosystemsdev.com/products/data-transformer/
 title: Data Transformer
 subtitle: Transform your data into a different format!
 description: Data Transformer is an offline desktop app for conveting between popular data formats.
+schema:
+  type: SoftwareApplication
+  category: Utilities
+  os: macOS, Windows
+  download_url_1: https://apps.apple.com/us/app/data-transformer/id1490843070
+  download_url_2: https://www.microsoft.com/en-au/p/data-transformer/9p2xp6nt2pv2
 ---
 
 <!-- # What is it? -->
@@ -48,4 +55,4 @@ Hence, you can rest assured that your data stays on your computer.
 With <strong>Data Transformer</strong> you can either open a file with your data or directly paste/enter the input data content in the app.  
 
 
-Stay tuned for more demos and tutorials. Until then, feel free to <a href="mailto:geo.systems.developer@gmail.com?subject=Regarding%20Data%20Transformer">email us</a> for any inquiries.
+Stay tuned for more demos and tutorials. Until then, feel free to <a href="mailto:support@geosystemsdev.com?subject=Regarding%20Data%20Transformer">email us</a> for any inquiries.

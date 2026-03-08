@@ -1,5 +1,6 @@
 ---
-layout: home
+layout: default
+canonical_url: https://geosystemsdev.com/
 title: Geo Systems Dev PTY LTD
 description: Geo Systems Dev PTY LTD is a niche software
     development studio. Our pilot project are File Content Finder, TextQ, and Data Transformer.
@@ -17,51 +18,12 @@ single-purpose applications to save you time.
 
 <h2>Products</h2>
 
-<h3>File Content Finder</h3>
-
-Our pilot product <a href="/products/file-content-finder">File Content Finder</a>
-is all about powerful and hassle free file search.
-It is a must have tool for the modern knowledge worker.
-
-It lets you specify a search phrase and finds all documents which contain it. 
-Other tools only search by file names. 
-<strong>File Content Finder</strong> inspects the actual 
-file contents and supports most common document formats - *pdf*, *doc(x)*, *xls(x)*, 
-*rtf*, text files, and many others. 
-It can even search in your scanned documents (*png* and *jpeg* files).
-
-<strong>File Content Finder</strong> works out of the box and does not index your files.
-It has advanced filtering capabilities so you can optimise your search and quickly
-find the right document. Multiple scripts like Cyrillic, Chinese, Japanese and others
-are supported out of the box. 
-
-<p class="image-gallery">
-<video controls id="myVideo" width="100%" class='video-js' controls preload='auto' data-setup='{}'>
-    <source src="/products/file-content-finder/fcf-from-youtube.mp4" type="video/mp4">
-    Your browser doesn't support HTML5 video tag.
-</video>
-</p>
-
-<h3>TextQ</h3>
-
-Our latest product <a href="/products/textq">TextQ</a>
-is an offline tool for data analysis.
-
-
-It allows you to import big CSV files which wouldn't normally fit in MS Excel.
-You can then preview the data, change columns (hide, rename, change types), query or filter
-the data, and export for further analysis.
-
-<strong>TextQ</strong> offers an untuitive graphical Query Builder for data exploration.
-For the advanced users, <strong>TextQ</strong> offsers full SQL support.
-
-<p class="image-gallery">
-<video controls id="myVideo" width="100%" class='video-js' controls preload='auto' data-setup='{}'>
-    <source src="/products/textq/TextQ.mp4" type="video/mp4">
-    Your browser doesn't support HTML5 video tag.
-</video>
-</p>
+- [**File Content Finder**](/products/file-content-finder/) — search across all your documents by their actual contents. Supports PDF, Word, Excel, images, and more. No indexing required.
+- [**TextQ**](/products/textq/) — analyse and query large CSV files offline using an intuitive UI query builder or full SQL. Handles files too big for Excel.
+- [**Data Transformer**](/products/data-transformer/) — convert between popular data formats (JSON, CSV, XML, YAML, Excel) entirely offline. Your data never leaves your machine.
+- [**HODLings**](/products/hodlings/) — private crypto portfolio tracker. Real-time market data, no accounts, no ads, zero tracking.
+- [**MathPlot**](/products/math-plot/) — free Canva app to add 2D mathematical graphs to your Canva designs.
 
 <h2>Get in touch</h2>
 
-Please feel free to <a href="mailto:geo.systems.developer@gmail.com">email us</a> for any inquiries.
+Please feel free to <a href="mailto:support@geosystemsdev.com">email us</a> for any inquiries.

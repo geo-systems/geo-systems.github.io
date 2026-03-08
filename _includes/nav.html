@@ -1,0 +1,84 @@
+<nav class="site-nav" aria-label="Main navigation">
+  <div class="nav-products-menu">
+    <button class="nav-products-toggle" aria-expanded="false" aria-haspopup="true">
+      Products <i class="fa-solid fa-chevron-down nav-chevron"></i>
+    </button>
+    <ul class="nav-dropdown" role="menu">
+      <li role="none">
+        <a href="/products/file-content-finder/" role="menuitem">
+          <img src="/assets/images/logo-fcf-tiny.png" alt="" />
+          <span>
+            <strong>File Content Finder</strong>
+            <small>Search files by content</small>
+          </span>
+        </a>
+      </li>
+      <li role="none">
+        <a href="/products/data-transformer/" role="menuitem">
+          <img src="/assets/images/logo-dt-tiny.png" alt="" />
+          <span>
+            <strong>Data Transformer</strong>
+            <small>Convert between data formats</small>
+          </span>
+        </a>
+      </li>
+      <li role="none">
+        <a href="/products/textq/" role="menuitem">
+          <img src="/assets/images/logo-textq-tiny.png" alt="" />
+          <span>
+            <strong>TextQ</strong>
+            <small>Analyse large CSV files offline</small>
+          </span>
+        </a>
+      </li>
+      <li role="none">
+        <a href="/products/hodlings/" role="menuitem">
+          <img src="/assets/images/hodlings.png" alt="" />
+          <span>
+            <strong>HODLings</strong>
+            <small>Private crypto portfolio tracker</small>
+          </span>
+        </a>
+      </li>
+      <li role="none">
+        <a href="/products/math-plot/" role="menuitem">
+          <img src="/assets/images/header-logo-transparent-math-plot.png" alt="" />
+          <span>
+            <strong>MathPlot</strong>
+            <small>Add 2D graphs to Canva designs</small>
+          </span>
+        </a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+<script>
+(function() {
+  var btn = document.querySelector('.nav-products-toggle');
+  var menu = document.querySelector('.nav-dropdown');
+  if (!btn || !menu) return;
+
+  function open() {
+    btn.setAttribute('aria-expanded', 'true');
+    menu.classList.add('is-open');
+  }
+  function close() {
+    btn.setAttribute('aria-expanded', 'false');
+    menu.classList.remove('is-open');
+  }
+
+  btn.addEventListener('click', function(e) {
+    e.stopPropagation();
+    btn.getAttribute('aria-expanded') === 'true' ? close() : open();
+  });
+
+  document.addEventListener('click', function(e) {
+    if (!btn.contains(e.target) && !menu.contains(e.target)) close();
+  });
+
+  document.addEventListener('keydown', function(e) {
+    if (e.key === 'Escape') close();
+  });
+})();
+</script>

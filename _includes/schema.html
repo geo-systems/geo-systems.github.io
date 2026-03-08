@@ -1,0 +1,30 @@
+{% if page.schema %}{% assign s = page.schema %}
+{% if s.type == "SoftwareApplication" %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  "name": {{ page.title | jsonify }},
+  "description": {{ page.description | jsonify }},
+  "url": {{ page.canonical_url | default: site.url | jsonify }},
+  "applicationCategory": {{ s.category | jsonify }},
+  "operatingSystem": {{ s.os | jsonify }}{% if s.price %},
+  "offers": {
+    "@type": "Offer",
+    "price": {{ s.price | jsonify }},
+    "priceCurrency": {{ s.currency | default: "USD" | jsonify }}
+  }{% endif %}{% if s.download_url_1 or s.download_url_2 %},
+  "downloadUrl": [{% if s.download_url_1 %}{{ s.download_url_1 | jsonify }}{% endif %}{% if s.download_url_1 and s.download_url_2 %}, {% endif %}{% if s.download_url_2 %}{{ s.download_url_2 | jsonify }}{% endif %}]{% endif %}{% if s.rating %},
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": {{ s.rating | jsonify }},
+    "ratingCount": {{ s.rating_count | default: 1 | jsonify }}
+  }{% endif %},
+  "author": {
+    "@type": "Organization",
+    "name": "Geo Systems Dev PTY LTD",
+    "url": "https://geosystemsdev.com"
+  }
+}
+</script>
+{% endif %}{% endif %}
