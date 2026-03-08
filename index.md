@@ -1,9 +1,9 @@
 ---
 layout: default
 canonical_url: https://geosystemsdev.com/
-title: Geo Systems Dev PTY LTD
+title: Geo Systems
 description: Geo Systems Dev PTY LTD is a niche software
-    development studio. Our pilot project are File Content Finder, TextQ, and Data Transformer.
+    development studio. Our pilot projects are File Content Finder, TextQ, Data Transformer, HODLings, and MathPlot.
 ---
 
 <!-- # What is it? -->
