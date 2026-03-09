@@ -16,9 +16,9 @@ Built for the privacy-conscious investor who needs a clean, fast way to monitor 
 
 ## Why Choose HODLings?
 
-- **100% ANONYMITY:** No accounts. No sign-ups. No Google/Facebook logins. We have no access to your identity — just open the app and start tracking your coins.
-- **SECURE LOCAL STORAGE:** Your crypto portfolio data stays on your device. We do not use cloud servers, ensuring your financial data is never sitting on a vulnerable third-party database.
-- **AD-FREE EXPERIENCE:** A distraction-free experience. No external trackers, no sponsored listings, and no "shilling" of coins.
+- **100% Anonymity:** No accounts. No sign-ups. No Google/Facebook logins. We have no access to your identity — just open the app and start tracking your coins.
+- **Secure local storage:** Your crypto portfolio data stays on your device. We do not use cloud servers, ensuring your financial data is never sitting on a vulnerable third-party database.
+- **Ad-free experience:** A distraction-free experience. No external trackers, no sponsored listings, and no "shilling" of coins.
 
 <div class="buy-from-stores-container">
     <div class="buy-from-store-link">
@@ -35,10 +35,10 @@ Built for the privacy-conscious investor who needs a clean, fast way to monitor 
 
 ## Core Features
 
-- **PORTFOLIO P&L:** Track your profit and loss over time with a simple, intuitive interface.
-- **REAL-TIME MARKET DATA, ANALYTICS & SENTIMENT:** Monitor price movements, sentiments, and news for thousands of assets including Bitcoin (BTC), Ethereum (ETH), Solana (SOL), and more.
-- **GLOBAL FIAT SUPPORT:** View your balance in 25+ currencies, including USD, AUD, EUR, GBP, and JPY.
-- **MINIMALIST DESIGN:** A clean, dark-mode optimised interface focused on clarity.
+- **Portfolio P&L:** Track your profit and loss over time with a simple, intuitive interface.
+- **Real-time market data, analytics & sentiment:** Monitor price movements, sentiments, and news for thousands of assets including Bitcoin (BTC), Ethereum (ETH), Solana (SOL), and more.
+- **Global fiat support:** View your balance in 25+ currencies, including USD, AUD, EUR, GBP, and JPY.
+- **Minimalist design:** A clean, dark-mode optimised interface focused on clarity.
 
 Whether you are a long-term HODLer or a casual investor, HODLings provides the tools you need to stay informed without being tracked.
 

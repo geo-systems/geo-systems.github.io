@@ -588,8 +588,12 @@ a.fab:hover {
 
   /* Store buttons */
   .buy-from-stores-container {
-    gap: 0.75rem;
-    .buy-from-store-link img { height: 62px; }
+    gap: 0.5rem;
+    flex-wrap: nowrap;
+    .buy-from-store-link {
+      flex: 1 1 0;
+      img { height: 48px; width: 100%; object-fit: contain; object-position: left center; }
+    }
   }
 
   /* Typography scale */
