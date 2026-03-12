@@ -40,6 +40,13 @@ Built for the privacy-conscious investor who needs a clean, fast way to monitor 
 - **Global fiat support:** View your balance in 25+ currencies, including USD, AUD, EUR, GBP, and JPY.
 - **Minimalist design:** A clean, dark-mode optimised interface focused on clarity.
 
+<p class="image-gallery">
+<video controls id="myVideo" width="100%" style="max-width: 400px; max-height: 60dvh; height: auto; display: block; margin: 0 auto;" class='video-js' preload='auto' data-setup='{}' title="HODLings app demo video" aria-label="HODLings app demo video" playsinline>
+    <source src="/products/hodlings/HODLings-youtube.mp4" type="video/mp4">
+    Your browser does not support HTML5 video. You can download the demo directly from <a href="/products/hodlings/HODLings-youtube.mp4">this link</a>.
+</video>
+</p>
+
 Whether you are a long-term HODLer or a casual investor, HODLings provides the tools you need to stay informed without being tracked.
 
 Stop being the product. Start being the investor.
