@@ -5,12 +5,39 @@ title: File Content Finder
 subtitle: Search your files by contents, not just by names!
 description: File Content Finder is a desktop app for searching text in file contents.
     It works in real time and does not require indexing.
+tags:
+    - file content finder
+    - document search app
+    - desktop search tool
+    - ocr document search
+    - offline file search
+keywords:
+    - file content search app
+    - search text in documents
+    - pdf word excel search
+    - offline desktop search
+    - macOS file search app
+    - windows file search app
 schema:
   type: SoftwareApplication
   category: Utilities
-  os: macOS, Windows
+    os:
+        - macOS
+        - Windows
+    featureList:
+        - Search inside PDF, Word, Excel, and many other file types
+        - Real-time search without indexing delays
+        - OCR support for image files
+        - Advanced filters by type, date, and folders
+        - Supports multiple languages and scripts
   download_url_1: https://itunes.apple.com/au/app/file-content-finder/id1448621435
   download_url_2: https://www.microsoft.com/en-au/p/file-content-finder/9mzc4sk6j6bp
+    video:
+        name: File Content Finder demo video
+        description: Demo of File Content Finder searching documents by file contents in real time.
+        content_url: https://geosystemsdev.com/products/file-content-finder/fcf-from-youtube.mp4
+        thumbnail_url: https://geosystemsdev.com/assets/images/store-badges/download_microsoft_store_320_sized.png
+        upload_date: 2026-03-13
 ---
 
 <!-- # What is it? -->

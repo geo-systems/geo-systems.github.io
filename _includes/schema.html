@@ -1,4 +1,4 @@
-{% if page.schema %}{% assign s = page.schema %}
+{% if page.schema %}{% assign s = page.schema %}{% assign feature_list = s.featureList | default: s.feature_list %}{% assign v = s.video %}
 {% if s.type == "SoftwareApplication" %}
 <script type="application/ld+json">
 {
@@ -14,7 +14,8 @@
     "price": {{ s.price | jsonify }},
     "priceCurrency": {{ s.currency | default: "USD" | jsonify }}
   }{% endif %}{% if s.download_url_1 or s.download_url_2 %},
-  "downloadUrl": [{% if s.download_url_1 %}{{ s.download_url_1 | jsonify }}{% endif %}{% if s.download_url_1 and s.download_url_2 %}, {% endif %}{% if s.download_url_2 %}{{ s.download_url_2 | jsonify }}{% endif %}]{% endif %}{% if s.rating %},
+  "downloadUrl": [{% if s.download_url_1 %}{{ s.download_url_1 | jsonify }}{% endif %}{% if s.download_url_1 and s.download_url_2 %}, {% endif %}{% if s.download_url_2 %}{{ s.download_url_2 | jsonify }}{% endif %}]{% endif %}{% if feature_list %},
+  "featureList": {{ feature_list | jsonify }}{% endif %}{% if s.rating %},
   "aggregateRating": {
     "@type": "AggregateRating",
     "ratingValue": {{ s.rating | jsonify }},
@@ -28,3 +29,24 @@
 }
 </script>
 {% endif %}{% endif %}
+
+{% if page.schema and v and v.content_url and v.thumbnail_url %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": {{ v.name | default: page.title | append: " Demo" | jsonify }},
+  "description": {{ v.description | default: page.description | jsonify }},
+  "thumbnailUrl": {{ v.thumbnail_url | jsonify }},
+  "contentUrl": {{ v.content_url | jsonify }},
+  "uploadDate": {{ v.upload_date | default: page.date | date: "%Y-%m-%d" | jsonify }},
+  "embedUrl": {{ v.embed_url | default: v.content_url | jsonify }},
+  "mainEntityOfPage": {{ page.canonical_url | default: site.url | jsonify }},
+  "publisher": {
+    "@type": "Organization",
+    "name": "Geo Systems Dev PTY LTD",
+    "url": "https://geosystemsdev.com"
+  }
+}
+</script>
+{% endif %}

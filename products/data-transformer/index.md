@@ -4,10 +4,32 @@ canonical_url: https://geosystemsdev.com/products/data-transformer/
 title: Data Transformer
 subtitle: Transform your data into a different format!
 description: Data Transformer is an offline desktop app for conveting between popular data formats.
+tags:
+    - data transformer
+    - csv converter
+    - json converter
+    - xml converter
+    - offline desktop app
+keywords:
+    - data transformer app
+    - csv to json converter
+    - json to csv converter
+    - xml converter offline
+    - yaml converter desktop
+    - sql script generator
+    - macOS data converter
+    - windows data converter
 schema:
   type: SoftwareApplication
   category: Utilities
-  os: macOS, Windows
+    os:
+        - macOS
+        - Windows
+    featureList:
+        - Convert between CSV, JSON, XML, YAML, and SQL formats
+        - Works fully offline with local file processing
+        - Open files or paste data directly in the app
+        - Rich options for transformation workflows
   download_url_1: https://apps.apple.com/us/app/data-transformer/id1490843070
   download_url_2: https://www.microsoft.com/en-au/p/data-transformer/9p2xp6nt2pv2
 ---

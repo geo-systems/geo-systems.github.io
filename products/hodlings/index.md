@@ -1,13 +1,45 @@
 ---
 layout: default
 canonical_url: https://geosystemsdev.com/products/hodlings/
-title: HODLings
-subtitle: The Private Crypto Tracker. No accounts, no ads, and zero tracking!
-description: HODLings is a powerful, minimalist crypto tracker. No accounts, no sign-ups, no ads, and zero tracking. Take control of your Bitcoin and crypto portfolio without giving up your privacy.
+title: "HODLings: Private Crypto Portfolio Tracker"
+description: "The premier No-KYC, zero-tracking crypto portfolio manager for iOS & Android. Keep your stack private with local-only storage."
+tags:
+    - crypto portfolio tracker
+    - bitcoin tracker
+    - privacy app
+    - iOS app
+    - Android app
+keywords:
+    - crypto portfolio tracker
+    - private crypto tracker
+    - no kyc crypto app
+    - bitcoin portfolio app
+    - ethereum portfolio tracker
+    - solana tracker
+    - iOS crypto app
+    - Android crypto app
+    - crypto news sentiment
 schema:
-  type: SoftwareApplication
-  category: Finance
-  os: iOS, Android
+    type: SoftwareApplication
+    category: FinanceApplication
+    os:
+        - iOS
+        - Android
+    featureList:
+        - "100% Private: No accounts or KYC required and no ads"
+        - "Local Storage: Data never leaves your device"
+        - Real-time market data, sentiment analytics
+        - News, sentiment analysis, fear and greed index
+        - Many charts and visualisations
+        - Supports light and dark mode UI
+    download_url_1: https://play.google.com/store/apps/details?id=app.hodlings.twa
+    download_url_2: https://apps.apple.com/au/app/hodlings/id6759246821
+    video:
+        name: HODLings app demo video
+        description: Demo of HODLings private crypto portfolio tracker for iOS and Android.
+        content_url: https://geosystemsdev.com/products/hodlings/HODLings-youtube.mp4
+        thumbnail_url: https://geosystemsdev.com/assets/images/store-badges/download_google_play_320.png
+        upload_date: 2026-03-13
 ---
 
 <strong>HODLings</strong> is a powerful, minimalist crypto tracker. Take control of your Bitcoin and crypto portfolio without giving up your privacy. While other apps want your email and data — HODLings wants none of it.
