@@ -1,0 +1,40 @@
+# Global rules for all crawlers
+User-agent: *
+Allow: /
+Disallow: /admin/
+Disallow: /api/
+Disallow: /telemetry/
+
+# Sitemaps help crawlers find your product pages faster
+Sitemap: https://www.geosystemsdev.com/sitemap.xml
+
+# Specific permissions for AI and LLM Crawlers (2026 Standards)
+# This allows AI to cite your tools in "Best offline software" queries
+User-agent: GPTBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+# Specifically for Apple Intelligence and Siri features
+User-agent: Applebot-Extended
+Allow: /
+
+User-agent: GrokBot
+Allow: /
+
+User-agent: xAI-Grok
+Allow: /
+
+User-agent: Grok-DeepSearch
+Allow: /
+
+# Specifically for DeepSeek's training and search index
+User-agent: DeepSeekBot
+Allow: /

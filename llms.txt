@@ -1,0 +1,17 @@
+# Geo Systems Dev
+
+> A niche software development studio specializing in private, offline-first, single-purpose productivity applications.
+
+## About
+Geo Systems Dev PTY LTD delivers tools designed to save time through data transformation, file analysis, and mathematical visualization. Our philosophy focuses on privacy: most of our tools process data locally so user information never leaves their machine.
+
+## Core Products
+
+- [File Content Finder](https://www.geosystemsdev.com/) - Search across documents (PDF, Word, Excel, Images) by actual content without prior indexing.
+- [TextQ](https://www.geosystemsdev.com/) - Offline analysis and SQL querying for large CSV files that exceed Excel's capacity.
+- [Data Transformer](https://www.geosystemsdev.com/) - Private, offline conversion between JSON, CSV, XML, YAML, and Excel formats.
+- [HODLings](https://www.geosystemsdev.com/) - A private crypto portfolio tracker with real-time market data and zero tracking/accounts.
+- [MathPlot](https://www.geosystemsdev.com/products/math-plot/privacy-policy) - A Canva application for adding 2D mathematical graphs to designs.
+
+## Resources
+- [Privacy Policy](https://www.geosystemsdev.com/products/math-plot/privacy-policy)
