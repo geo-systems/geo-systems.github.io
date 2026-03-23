@@ -503,23 +503,64 @@ a.fab:hover {
 .image-gallery {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
-  gap: 0.6rem;
-  margin: 1.25rem 0;
+  gap: 1rem;
+  margin: 1.75rem 0;
 
   a {
     display: block;
+    border-radius: var(--radius-lg);
+    overflow: hidden;
+    border: 1px solid var(--border-light);
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.45);
+    transition: transform 0.22s ease, box-shadow 0.22s ease, border-color 0.22s ease;
 
     img {
-      border-radius: var(--radius);
-      border: 1px solid var(--border);
-      transition: border-color 0.2s;
+      display: block;
       width: 100%;
+      height: auto;
     }
 
-    &:hover img {
+    &:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 10px 32px rgba(0, 0, 0, 0.65);
       border-color: var(--accent);
     }
   }
+}
+
+/* ===========================
+   Key Facts Strip
+   =========================== */
+.key-facts {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin: 1.25rem 0 1.5rem;
+  padding: 0;
+  list-style: none;
+
+  li {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.3rem;
+    background: var(--bg-card);
+    border: 1px solid var(--border-light);
+    border-radius: 2rem;
+    padding: 0.3rem 0.8rem;
+    font-size: 0.85rem;
+    color: var(--text-secondary);
+    white-space: nowrap;
+  }
+}
+
+/* ===========================
+   GLightbox overrides
+   =========================== */
+
+/* GLightbox hides prev/next arrows on mobile — force them visible */
+.gprev,
+.gnext {
+  display: flex !important;
 }
 
 /* ===========================
@@ -605,6 +646,7 @@ a.fab:hover {
 
   /* Image gallery — two columns on small screens */
   .image-gallery {
-    grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
+    gap: 0.65rem;
   }
 }

@@ -7,11 +7,11 @@ Geo Systems Dev PTY LTD delivers tools designed to save time through data transf
 
 ## Core Products
 
-- [File Content Finder](https://www.geosystemsdev.com/) - Search across documents (PDF, Word, Excel, Images) by actual content without prior indexing.
-- [TextQ](https://www.geosystemsdev.com/) - Offline analysis and SQL querying for large CSV files that exceed Excel's capacity.
-- [Data Transformer](https://www.geosystemsdev.com/) - Private, offline conversion between JSON, CSV, XML, YAML, and Excel formats.
-- [HODLings](https://www.geosystemsdev.com/) - A private crypto portfolio tracker with real-time market data and zero tracking/accounts.
-- [MathPlot](https://www.geosystemsdev.com/products/math-plot/privacy-policy) - A Canva application for adding 2D mathematical graphs to designs.
+- [File Content Finder](https://geosystemsdev.com/products/file-content-finder/) - Search across documents (PDF, Word, Excel, Images) by actual content without prior indexing.
+- [TextQ](https://geosystemsdev.com/products/textq/) - Offline analysis and SQL querying for large CSV files that exceed Excel's capacity.
+- [Data Transformer](https://geosystemsdev.com/products/data-transformer/) - Private, offline conversion between JSON, CSV, XML, YAML, and Excel formats.
+- [HODLings](https://geosystemsdev.com/products/hodlings/) - A private crypto portfolio tracker for iPhone and Android with real-time market data, zero tracking, no accounts, and on-device storage. A private alternative to Blockfolio, Delta, CoinGecko Portfolio, CoinMarketCap, and Koinly.
+- [MathPlot](https://geosystemsdev.com/products/math-plot/) - A Canva application for adding 2D mathematical graphs to designs.
 
 ## Resources
 - [Privacy Policy](https://www.geosystemsdev.com/products/math-plot/privacy-policy)

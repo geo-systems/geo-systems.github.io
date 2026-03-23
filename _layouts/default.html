@@ -3,6 +3,8 @@
   <head>
     {% include page-head.html %}
     {% if page.canonical_url %}<link rel="canonical" href="{{ page.canonical_url }}"/>{% endif %}
+    {% if page.glightbox %}<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glightbox@3/dist/css/glightbox.min.css">{% endif %}
+    {% if page.preload_video %}<link rel="preload" href="{{ page.preload_video }}" as="video" type="video/mp4">{% endif %}
   </head>
   <body>
     <header class="site-header">
@@ -28,5 +30,9 @@
 
     {% include footer.html %}
     {% include ga.html %}
+    {% if page.glightbox %}
+    <script src="https://cdn.jsdelivr.net/npm/glightbox@3/dist/js/glightbox.min.js"></script>
+    <script>GLightbox({ selector: '.glightbox', touchNavigation: true, loop: true, zoomable: true, preload: true });</script>
+    {% endif %}
   </body>
 </html>
