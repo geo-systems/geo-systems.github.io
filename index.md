@@ -21,7 +21,7 @@ single-purpose applications to save you time.
 - [**File Content Finder**](/products/file-content-finder/) — search across all your documents by their actual contents. Supports PDF, Word, Excel, images, and more. No indexing required.
 - [**TextQ**](/products/textq/) — analyse and query large CSV files offline using an intuitive UI query builder or full SQL. Handles files too big for Excel.
 - [**Data Transformer**](/products/data-transformer/) — convert between popular data formats (JSON, CSV, XML, YAML, Excel) entirely offline. Your data never leaves your machine.
-- [**HODLings**](/products/hodlings/) — private crypto portfolio tracker. Real-time market data, no accounts, no ads, zero tracking.
+- [**HODLings**](/products/hodlings/) — private cryptocurrency tracker for iPhone and Android. Track Bitcoin, Ethereum, Solana and 1000+ coins with on-device local storage, no account, no ads, and a one-time $1 payment. A privacy-first alternative to Blockfolio, Delta, and CoinGecko Portfolio.
 - [**MathPlot**](/products/math-plot/) — free Canva app to add 2D mathematical graphs to your Canva designs.
 
 <h2>Get in touch</h2>
