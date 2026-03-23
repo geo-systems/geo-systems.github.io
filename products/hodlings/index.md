@@ -97,7 +97,7 @@ Built for the privacy-conscious investor who wants a clean, fast, and intuitive 
   <li>📱 iOS &amp; Android</li>
   <li>💾 On-device storage</li>
   <li>🚫 No ads</li>
-  <li>📊 100+ cryptocurrencies</li>
+  <li>📊 1000+ cryptocurrencies</li>
 </ul>
 
 <div class="buy-from-stores-container">
