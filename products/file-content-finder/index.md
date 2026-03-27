@@ -1,26 +1,38 @@
 ---
 layout: default
 canonical_url: https://geosystemsdev.com/products/file-content-finder/
-title: File Content Finder
+title: "File Content Finder: Search PDF, Word, Excel and Images"
 subtitle: Search your files by contents, not just by names!
-description: File Content Finder is a desktop app for searching text in file contents.
-    It works in real time and does not require indexing.
+description: "File Content Finder is a desktop search app for macOS and Windows that finds text inside PDF, Word, Excel, image and text files in real time without indexing."
 tags:
     - file content finder
     - document search app
     - desktop search tool
+    - pdf search app
+    - word document search
+    - excel file search
     - ocr document search
     - offline file search
 keywords:
     - file content search app
+    - search inside files
+    - document content search
     - search text in documents
     - pdf word excel search
+    - image ocr search app
+    - no indexing file search
     - offline desktop search
     - macOS file search app
     - windows file search app
+    - file content finder app store
+    - file content finder microsoft store
+    - download file content finder
+    - optimize document search workflow
+    - spotlight alternative for document content search
+    - windows search alternative for file content search
 schema:
-  type: SoftwareApplication
-  category: Utilities
+    type: SoftwareApplication
+    category: UtilitiesApplication
     os:
         - macOS
         - Windows
@@ -30,30 +42,40 @@ schema:
         - OCR support for image files
         - Advanced filters by type, date, and folders
         - Supports multiple languages and scripts
-  download_url_1: https://itunes.apple.com/au/app/file-content-finder/id1448621435
-  download_url_2: https://www.microsoft.com/en-au/p/file-content-finder/9mzc4sk6j6bp
+    download_url_1: https://itunes.apple.com/au/app/file-content-finder/id1448621435
+    download_url_2: https://www.microsoft.com/en-au/p/file-content-finder/9mzc4sk6j6bp
     video:
         name: File Content Finder demo video
         description: Demo of File Content Finder searching documents by file contents in real time.
         content_url: https://geosystemsdev.com/products/file-content-finder/fcf-from-youtube.mp4
         thumbnail_url: https://geosystemsdev.com/assets/images/store-badges/download_microsoft_store_320_sized.png
         upload_date: 2026-03-13
+last_modified_at: 2026-03-27
+image:
+    path: https://geosystemsdev.com/assets/images/store-badges/download_microsoft_store_320_sized.png
+    alt: "File Content Finder desktop app for searching inside PDF, Word, Excel and image files"
+    width: 320
+    height: 95
 ---
 
-<!-- # What is it? -->
+<strong>File Content Finder</strong> is a desktop app for searching inside file contents.
+It is built for people who work with large document libraries.
 
-<strong>File Content Finder</strong> is a desktop app for searching in file contents.
-It is a must have tool for the modern knowledge worker.
-
-Do you have heaps of documents in different formats? Did you ever want to search
-across all of them to find the rigth contract or research paper? 
-<strong>File Content Finder</strong> has got you covered.
+Do you have documents spread across multiple formats?
+Need to quickly find the right contract, report, or research paper?
+<strong>File Content Finder</strong> is designed for that workflow.
 It is the perfect tool for academics, educators, administrators, and
 other knowledge workers.
 
-Unlike most other search programs, which only search by file names,
-it can inspect the actual content of many popular
-documents and works in real time without indexing.
+Unlike tools that only search by file name,
+it reads actual file content across many common document types
+and returns matches in real time, without indexing.
+
+<ul class="key-facts">
+    <li>⚡ Real-time</li>
+    <li>📄 Multi-format</li>
+    <li>💻 macOS+Windows</li>
+</ul>
 
 <p class="image-gallery">
 <video controls id="myVideo" width="100%" class='video-js' controls preload='auto' data-setup='{}'>
@@ -84,13 +106,12 @@ documents and works in real time without indexing.
 - Text and source files - txt, markdown, and others.
 - **RTF** - only on Mac OS;
 
-<strong>File Content Finder</strong> has advanced filtering capabilities 
-so you can optimise your search and find quickly
-the right document. 
+<strong>File Content Finder</strong> includes advanced filters
+so you can narrow results and find the right document faster.
 
 To speed up the process, you can filter out files by type, 
 creation and last modification date, and more.
-Multiple scripts and languages like Russian Cyrillic, Chinese, 
+Multiple scripts and languages like Russian Cyrillic, Chinese,
 Japanese and others are supported out of the box.
 
 The app also supports network file shares (e.g. SMB, FTP, AFP) 
@@ -98,6 +119,32 @@ if they are mounted as volumes. On Mac, for example, using the top menu navigate
 `Go` -> `Connect to Server...`,
 Then enter the server address and credentials. 
 The network share will appear in Finder as a Volume and will be selectable from the app.
+
+## Why File Content Finder?
+
+- Search by real document content, not just file names.
+- Reduce time spent opening dozens of files manually.
+- Work with local or mounted network volumes.
+- Keep document discovery fast for legal, academic, operations, and compliance workflows.
+
+If you need a practical alternative to basic filename search tools, File Content Finder provides deep content search across common document formats.
+
+## Frequently Asked Questions
+
+**Does File Content Finder require indexing before search?**
+No. File Content Finder runs searches in real time and does not require a background indexing database.
+
+**Which file types are supported?**
+It supports PDF, Microsoft Word, Microsoft Excel, LibreOffice/OpenOffice formats, images with OCR, RTF on macOS, and plain text/source files.
+
+**Can File Content Finder search text inside images?**
+Yes. It supports OCR for image files so you can search text captured in screenshots and scanned documents.
+
+**Can I search files on a network share?**
+Yes. Mounted network shares (for example SMB, FTP, or AFP volumes) can be selected and searched.
+
+**Where can I download File Content Finder?**
+You can download File Content Finder from the Apple App Store and Microsoft Store.
 
 <!-- Here is a showcase of the main functionalities and settings: -->
 
@@ -124,3 +171,52 @@ The network share will appear in Finder as a Volume and will be selectable from 
 <p> -->
 
 Stay tuned for more demos and tutorials. Until then, feel free to <a href="mailto:support@geosystemsdev.com?subject=Regarding%20File%20Content%20Finder">email us</a> for any inquiries.
+
+<script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+        {
+            "@type": "Question",
+            "name": "Does File Content Finder require indexing before search?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "No. File Content Finder runs searches in real time and does not require a background indexing database."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "Which file types are supported?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "It supports PDF, Microsoft Word, Microsoft Excel, LibreOffice/OpenOffice formats, images with OCR, RTF on macOS, and plain text/source files."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "Can File Content Finder search text inside images?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes. It supports OCR for image files so you can search text captured in screenshots and scanned documents."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "Can I search files on a network share?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes. Mounted network shares (for example SMB, FTP, or AFP volumes) can be selected and searched."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "Where can I download File Content Finder?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "You can download File Content Finder from the Apple App Store and Microsoft Store."
+            }
+        }
+    ]
+}
+</script>

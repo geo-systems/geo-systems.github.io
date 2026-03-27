@@ -45,6 +45,14 @@ Create stunning graphs and charts with ease without leaving [Canva](https://www.
 - vectors;
 - text;
 
+<ul class="key-facts">
+  <li>🆓 Free!</li>
+  <li>📈 2D plots</li>
+  <li>🧮 MathJS syntax</li>
+  <li>🎛️ Custom axes</li>
+  <li>🎨 Canva export</li>
+</ul>
+
 
 # How it works
 
