@@ -1,9 +1,9 @@
 ---
 layout: default
 canonical_url: https://geosystemsdev.com/products/file-content-finder/
-title: "File Content Finder: Search PDF, Word, Excel and Images"
+title: "File Content Finder: Search PDF, Word, Excel and Others"
 subtitle: Search your files by contents, not just by names!
-description: "File Content Finder is a desktop search app for macOS and Windows that finds text inside PDF, Word, Excel, image and text files in real time without indexing."
+description: "File Content Finder is a desktop search app for macOS and Windows that finds text inside PDF, Word, Excel, and text files in real time without indexing."
 tags:
     - file content finder
     - document search app
@@ -19,7 +19,6 @@ keywords:
     - document content search
     - search text in documents
     - pdf word excel search
-    - image ocr search app
     - no indexing file search
     - offline desktop search
     - macOS file search app
@@ -39,7 +38,6 @@ schema:
     featureList:
         - Search inside PDF, Word, Excel, and many other file types
         - Real-time search without indexing delays
-        - OCR support for image files
         - Advanced filters by type, date, and folders
         - Supports multiple languages and scripts
     download_url_1: https://itunes.apple.com/au/app/file-content-finder/id1448621435
