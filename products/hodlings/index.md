@@ -102,12 +102,12 @@ Built for the privacy-conscious investor who wants a clean, fast, and intuitive 
 
 <div class="buy-from-stores-container">
     <div class="buy-from-store-link">
-        <a href="https://play.google.com/store/apps/details?id=app.hodlings.twa" target="_blank">
+        <a href="https://play.google.com/store/apps/details?id=app.hodlings.twa" target="_blank" rel="noopener noreferrer">
             <img src="/assets/images/store-badges/download_google_play_320.png" alt="Get it on Google Play" />
         </a>
     </div>
     <div class="buy-from-store-link">
-        <a href="https://apps.apple.com/au/app/hodlings/id6759246821" target="_blank">
+        <a href="https://apps.apple.com/au/app/hodlings/id6759246821" target="_blank" rel="noopener noreferrer">
             <img src="/assets/images/store-badges/download_apple_store_320.png" alt="Download on the App Store" />
         </a>
     </div>
