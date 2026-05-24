@@ -2,6 +2,15 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5">
 
+{% if page.favicon %}
+  {% if page.favicon.ico %}<link rel="icon" href="{{ page.favicon.ico | relative_url }}" sizes="any">{% endif %}
+  {% if page.favicon.svg %}<link rel="icon" href="{{ page.favicon.svg | relative_url }}" type="image/svg+xml">{% endif %}
+  {% if page.favicon.png %}<link rel="icon" href="{{ page.favicon.png | relative_url }}" type="image/png" sizes="{{ page.favicon.png_sizes | default: '96x96' }}">{% endif %}
+  {% if page.favicon.apple %}<link rel="apple-touch-icon" href="{{ page.favicon.apple | relative_url }}">{% endif %}
+{% else %}
+<link rel="icon" href="{{ '/favicon.ico' | relative_url }}" sizes="any">
+{% endif %}
+
 {% seo %}
 {% include schema.html %}
 

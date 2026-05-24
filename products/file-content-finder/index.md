@@ -2,7 +2,7 @@
 layout: default
 canonical_url: https://geosystemsdev.com/products/file-content-finder/
 title: "File Content Finder: Search PDF, Word, Excel and Others"
-subtitle: Search your files by contents, not just by names!
+subtitle: Search your files by content, not just by name
 description: "File Content Finder is a desktop search app for macOS and Windows that finds text inside PDF, Word, Excel, and text files in real time without indexing."
 tags:
     - file content finder
@@ -56,18 +56,11 @@ image:
     height: 95
 ---
 
-<strong>File Content Finder</strong> is a desktop app for searching inside file contents.
-It is built for people who work with large document libraries.
+<strong>File Content Finder</strong> is a desktop search app for macOS and Windows that searches inside file contents — not just filenames.
 
-Do you have documents spread across multiple formats?
-Need to quickly find the right contract, report, or research paper?
-<strong>File Content Finder</strong> is designed for that workflow.
-It is the perfect tool for academics, educators, administrators, and
-other knowledge workers.
+If you work with large document libraries spread across multiple formats, <strong>File Content Finder</strong> is built for that workflow. It reads the actual text inside PDFs, Word documents, Excel spreadsheets, images (via OCR), and more — returning matches in real time without any prior indexing.
 
-Unlike tools that only search by file name,
-it reads actual file content across many common document types
-and returns matches in real time, without indexing.
+The perfect tool for academics, legal professionals, administrators, and anyone who needs to find a specific contract, report, or record quickly.
 
 <ul class="key-facts">
     <li>⚡ Real-time</li>

@@ -1,17 +1,124 @@
 # Geo Systems Dev
 
-> A niche software development studio specializing in private, offline-first, single-purpose productivity applications.
+> A niche software development studio specializing in private, offline-first, single-purpose productivity applications for desktop and mobile.
 
 ## About
-Geo Systems Dev PTY LTD delivers tools designed to save time through data transformation, file analysis, and mathematical visualization. Our philosophy focuses on privacy: most of our tools process data locally so user information never leaves their machine.
 
-## Core Products
+**Geo Systems Dev PTY LTD** builds practical tools for people who work with documents, data, and analysis. The core philosophy is privacy: most products process data entirely on the user's device so sensitive information never leaves their machine. Products are available on iOS, Android, macOS, Windows, and the web.
 
-- [File Content Finder](https://geosystemsdev.com/products/file-content-finder/) - Search across documents (PDF, Word, Excel, Images) by actual content without prior indexing.
-- [TextQ](https://geosystemsdev.com/products/textq/) - Offline analysis and SQL querying for large CSV files that exceed Excel's capacity.
-- [Data Transformer](https://geosystemsdev.com/products/data-transformer/) - Private, offline conversion between JSON, CSV, XML, YAML, and Excel formats.
-- [HODLings](https://geosystemsdev.com/products/hodlings/) - A private crypto portfolio tracker for iPhone and Android with real-time market data, zero tracking, no accounts, and on-device storage. A private alternative to Blockfolio, Delta, CoinGecko Portfolio, CoinMarketCap, and Koinly.
-- [MathPlot](https://geosystemsdev.com/products/math-plot/) - A Canva application for adding 2D mathematical graphs to designs.
+Website: https://geosystemsdev.com  
+Contact: support@geosystemsdev.com  
+Social: https://twitter.com/geo_systems_dev
 
-## Resources
-- [Privacy Policy](https://www.geosystemsdev.com/products/math-plot/privacy-policy)
+---
+
+## Products
+
+### HODLings — Private Cryptocurrency Portfolio Tracker
+**URL:** https://geosystemsdev.com/products/hodlings/  
+**Web app:** https://hodlings.app  
+**Platforms:** iOS (iPhone + iPad), Android, Web  
+**Price:** Free on the web; one-time $1 on iOS (App Store) and Android (Google Play). No subscriptions, no in-app purchases, no support pop-ups.  
+**Privacy:** No accounts, no sign-up, no KYC. All portfolio data is stored in on-device local storage and never sent to any server or cloud.  
+**App Store:** https://apps.apple.com/au/app/hodlings/id6759246821  
+**Google Play:** https://play.google.com/store/apps/details?id=app.hodlings.twa
+
+**Key features:**
+- **Portfolio table & performance chart:** Track total portfolio value with a live P&L chart across 1D, 7D, 30D, 1Y, and ALL timeframes. Detailed per-holding breakdown shows value, quantity, coin price, and period gain/loss.
+- **Diversification charts:** Switch between a donut pie chart and a proportional bar chart to visualise how holdings are spread across assets, with percentage share and period delta per asset.
+- **1000+ cryptocurrencies:** Supports Bitcoin (BTC), Ethereum (ETH), Solana (SOL), XRP, and over 1,000 other coins.
+- **28 fiat currencies:** USD, EUR, GBP, AUD, CAD, SGD, JPY, CHF, CNY, INR, KRW, BRL, HKD, MXN, MYR, NZD, SEK, NOK, DKK, PLN, CZK, HUF, IDR, ILS, PHP, THB, TRY, ZAR.
+- **Market rankings table:** Full crypto market sorted by market cap with price, fully diluted value (FDV), and 1D/7D/30D deltas. Bookmark favourite coins.
+- **Market stats dashboard:** Fear & Greed Index (0–100 gauge + history), total crypto market cap, BTC halving countdown, Bitcoin vs all-time high, and macro benchmarks (Gold, Silver, Copper, Crude Oil, 10Y Treasury yield).
+- **Market heatmap:** Treemap view of the entire crypto market, sized by market cap and colour-coded by price performance.
+- **News & sentiment:** AI-generated "In short:" TLDR digest of the day's top stories. Individual news articles with bullish/bearish/neutral sentiment tags, source attribution, and publication date.
+- Light and dark mode UI.
+
+**Private alternatives to:** Blockfolio, Delta, CoinGecko Portfolio, CoinMarketCap Portfolio, Koinly, Polyfolio.
+
+---
+
+### File Content Finder — Search Inside Documents
+**URL:** https://geosystemsdev.com/products/file-content-finder/  
+**Platforms:** macOS, Windows  
+**Price:** Paid (one-time purchase) via Apple App Store and Microsoft Store  
+**App Store:** https://itunes.apple.com/au/app/file-content-finder/id1448621435  
+**Microsoft Store:** https://www.microsoft.com/en-au/p/file-content-finder/9mzc4sk6j6bp
+
+**Key features:**
+- Search inside file contents in real time — no prior indexing required.
+- Supported formats: PDF, Microsoft Word (doc, docx), Microsoft Excel (xls, xlsx), LibreOffice/OpenOffice (odt, ods), Images (PNG, JPG via OCR), RTF (macOS only), plain text and source files.
+- Advanced filters: narrow results by file type, creation date, modification date, and folder.
+- Multi-language support: Russian Cyrillic, Chinese, Japanese, and more.
+- Works with local drives and mounted network volumes (SMB, FTP, AFP).
+- All processing is local — no cloud upload.
+
+**Use cases:** Academics searching research papers, lawyers reviewing contracts, administrators finding records in mixed document libraries.  
+**Alternatives to:** macOS Spotlight (for document content), Windows Search (for file contents).
+
+---
+
+### TextQ — Offline CSV Analysis and SQL Querying
+**URL:** https://geosystemsdev.com/products/textq/  
+**Platforms:** macOS  
+**Price:** Paid (one-time purchase) via Apple App Store  
+**App Store:** https://apps.apple.com/au/app/textq/id1571423170
+
+**Key features:**
+- Load and preview large CSV and tabular files that exceed Excel's capacity.
+- Visual query builder: filter rows with an intuitive UI — no SQL required.
+- Full SQL support: GROUP BY, aggregations, joins, and other advanced queries.
+- Column management: rename, reorder, hide columns; change types (text, number, date).
+- Parse dates and numbers in many locales and formats.
+- Index columns for faster queries on very large files.
+- Export processed results to CSV for use in other tools (e.g., Excel, R, Python).
+- All data is processed locally via macOS sandbox — never uploaded to the cloud.
+
+**Use cases:** Data analysts, researchers, finance teams processing large exports that are too slow in Excel.
+
+---
+
+### Data Transformer — Offline Data Format Converter
+**URL:** https://geosystemsdev.com/products/data-transformer/  
+**Platforms:** macOS, Windows  
+**Price:** Paid (one-time purchase) via Apple App Store and Microsoft Store  
+**App Store:** https://apps.apple.com/us/app/data-transformer/id1490843070  
+**Microsoft Store:** https://www.microsoft.com/en-au/p/data-transformer/9p2xp6nt2pv2
+
+**Key features:**
+- Convert between CSV, JSON, XML, YAML, and Excel-compatible tabular formats.
+- Generate SQL CREATE TABLE and INSERT scripts from CSV, JSON, XML, or YAML.
+- Open local files or paste input data directly.
+- Supports TSV and other CSV variants.
+- Works fully offline — no cloud upload.
+- macOS sandbox model enforces local-only processing.
+
+**Use cases:** Developers converting API payloads, analysts preparing data for SQL databases, engineers migrating between data formats.
+
+---
+
+### MathPlot — 2D Math Graph App for Canva
+**URL:** https://geosystemsdev.com/products/math-plot/  
+**Platforms:** Web (Canva App)  
+**Price:** Free  
+**Install:** Search "MathPlot" inside the Canva app marketplace.
+
+**Key features:**
+- Plot linear functions (e.g. `F(x) = x^3`), parametric functions, and polar functions directly inside Canva.
+- Uses MathJS expression syntax (e.g. `sin(x)`, `x^2`, `PI`, `E`).
+- Add vectors, connected points, and text annotations.
+- Configure axes: ranges, labels, linear or logarithmic scale, grid on/off.
+- Select colour mode (current, dark, or light) and image resolution before inserting.
+- Insert styled graphs directly into any Canva design.
+
+**Use cases:** Students visualising math concepts, educators creating instructional materials, presenters adding graphs to slide decks.
+
+---
+
+## Privacy Policy URLs
+
+- HODLings: https://geosystemsdev.com/products/hodlings/privacy-policy/
+- File Content Finder: https://geosystemsdev.com/products/file-content-finder/privacy-policy/
+- TextQ: https://geosystemsdev.com/products/textq/privacy-policy/
+- Data Transformer: https://geosystemsdev.com/products/data-transformer/privacy-policy/
+- MathPlot: https://geosystemsdev.com/products/math-plot/privacy-policy/

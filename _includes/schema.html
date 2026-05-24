@@ -40,7 +40,10 @@
   "thumbnailUrl": {{ v.thumbnail_url | jsonify }},
   "contentUrl": {{ v.content_url | jsonify }},
   "uploadDate": {{ v.upload_date | default: page.date | date: "%Y-%m-%d" | jsonify }},
-  "embedUrl": {{ v.embed_url | default: v.content_url | jsonify }},
+  "embedUrl": {{ v.embed_url | default: v.content_url | jsonify }},{% if v.duration %}
+  "duration": {{ v.duration | jsonify }},{% endif %}{% if v.width %}
+  "width": {{ v.width }},{% endif %}{% if v.height %}
+  "height": {{ v.height }},{% endif %}
   "mainEntityOfPage": {{ page.canonical_url | default: site.url | jsonify }},
   "publisher": {
     "@type": "Organization",

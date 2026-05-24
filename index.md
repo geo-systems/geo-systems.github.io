@@ -2,6 +2,7 @@
 layout: default
 canonical_url: https://geosystemsdev.com/
 title: "Geo Systems Dev | Private Productivity Apps for Desktop and Mobile"
+subtitle: "Private, offline-first apps — no accounts, no cloud, no tracking"
 description: "Geo Systems Dev builds privacy-focused productivity apps for document search, CSV analysis, data conversion, crypto portfolio tracking, and math plotting across desktop and mobile platforms."
 tags:
     - offline-first software
@@ -34,17 +35,15 @@ image:
 
 <strong>Geo Systems Dev PTY LTD</strong> creates practical software for people who work with documents, data, and analysis every day.
 
-Our products are designed to be straightforward, fast, and privacy-conscious, so sensitive work can stay on your own devices.
-
-
+Our products are designed to be straightforward, fast, and privacy-conscious — so sensitive work can stay on your own devices. Most of our apps process data entirely locally, with no accounts required and no cloud uploads.
 
 <h2>Products</h2>
 
-- [**File Content Finder**](/products/file-content-finder/) — search across all your documents by their actual contents. Supports PDF, Word, Excel, images, and more. No indexing required.
-- [**TextQ**](/products/textq/) — analyse and query large CSV files with a visual query builder or full SQL. Built for datasets that are too large for typical spreadsheet workflows.
-- [**Data Transformer**](/products/data-transformer/) — convert between popular data formats (JSON, CSV, XML, YAML, Excel) entirely offline. Your data never leaves your machine.
-- [**HODLings**](/products/hodlings/) — private cryptocurrency tracker for iPhone and Android. Track Bitcoin, Ethereum, Solana and 1000+ coins with on-device local storage, no account, no ads, and a one-time $1 payment. A privacy-first alternative to Blockfolio, Delta, and CoinGecko Portfolio.
-- [**MathPlot**](/products/math-plot/) — free Canva app to add 2D mathematical graphs to your Canva designs.
+- [**HODLings**](/products/hodlings/) — private cryptocurrency tracker for web, iPhone, iPad, and Android. Track Bitcoin, Ethereum, Solana and 1000+ coins with on-device local storage — no account, no ads, and no subscriptions. Free at [hodlings.app](https://hodlings.app), with one-time $1 native apps on iOS and Android.
+- [**File Content Finder**](/products/file-content-finder/) — desktop search app for macOS and Windows. Search across all your documents by their actual contents — PDF, Word, Excel, images (OCR), and more. No indexing required.
+- [**TextQ**](/products/textq/) — analyse and query large CSV files on macOS with a visual query builder or full SQL. Built for datasets too large for typical spreadsheet workflows. All processing is local.
+- [**Data Transformer**](/products/data-transformer/) — convert between popular data formats (JSON, CSV, XML, YAML, Excel) entirely offline on macOS and Windows. Your data never leaves your machine.
+- [**MathPlot**](/products/math-plot/) — free Canva app to add 2D mathematical graphs (linear, parametric, polar) to your Canva designs using MathJS syntax.
 
 <h2>Get in touch</h2>
 
