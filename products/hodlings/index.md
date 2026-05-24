@@ -92,7 +92,6 @@ schema:
         height: 934
 glightbox: true
 last_modified_at: 2026-05-24
-preload_video: /products/hodlings/HODLings-youtube.mp4
 image:
     path: https://geosystemsdev.com/products/hodlings/background-img.png
     alt: "HODLings — private cryptocurrency tracker for web, iPhone, and Android"
@@ -140,7 +139,7 @@ favicon:
 </div>
 
 <p class="image-gallery">
-<video controls id="myVideo" width="100%" style="max-width: 400px; max-height: 60dvh; height: auto; display: block; margin: 0 auto;" class='video-js' preload='auto' data-setup='{}' title="HODLings app demo video" aria-label="HODLings app demo video" playsinline poster="/products/hodlings/video-poster.jpg">
+<video controls id="myVideo" width="100%" style="max-width: 400px; max-height: 60dvh; height: auto; display: block; margin: 0 auto;" class='video-js' preload='metadata' data-setup='{}' title="HODLings app demo video" aria-label="HODLings app demo video" playsinline poster="/products/hodlings/video-poster.jpg">
     <source src="/products/hodlings/HODLings-youtube.mp4" type="video/mp4">
     Your browser does not support HTML5 video. You can download the demo directly from <a href="/products/hodlings/HODLings-youtube.mp4">this link</a>.
 </video>
@@ -155,9 +154,9 @@ favicon:
 - **Diversification views:** Switch between a donut pie chart and a proportional bar chart to see your allocation at a glance.
 
 <p class="image-gallery">
-  <a href="/products/hodlings/gallery/1%20Portfolio%20Table.png" class="glightbox" data-gallery="hodlings-portfolio" data-title="Portfolio — Holdings Table &amp; Performance Chart" data-description="Portfolio performance chart (top) + per-holding breakdown. Shows current value, amount held, coin price, and period gain or loss for each asset."><img src="/products/hodlings/gallery/1%20Portfolio%20Table.png" loading="lazy" alt="HODLings portfolio table and performance chart — total value with P&amp;L curve and per-holding breakdown showing value, quantity, price and gain" /></a>
-  <a href="/products/hodlings/gallery/2%20Portfiolio%20Diversification%20%28Pie%29.png" class="glightbox" data-gallery="hodlings-portfolio" data-title="Portfolio — Diversification (Pie Chart)" data-description="Portfolio allocation as a donut chart. Each segment shows an asset's percentage share of the total portfolio."><img src="/products/hodlings/gallery/2%20Portfiolio%20Diversification%20%28Pie%29.png" loading="lazy" alt="HODLings portfolio diversification donut chart showing percentage allocation for each held asset" /></a>
-  <a href="/products/hodlings/gallery/3%20Portfolio%20Diversification%20%28Bars%29.png" class="glightbox" data-gallery="hodlings-portfolio" data-title="Portfolio — Diversification (Bar Chart)" data-description="Allocation as a horizontal bar chart. Bar width reflects portfolio share; each row also shows the period price delta."><img src="/products/hodlings/gallery/3%20Portfolio%20Diversification%20%28Bars%29.png" loading="lazy" alt="HODLings portfolio diversification bar chart showing each asset's allocation share and period price delta" /></a>
+  <a href="/products/hodlings/gallery/1%20Portfolio%20Table.webp" class="glightbox" data-gallery="hodlings-portfolio" data-title="Portfolio — Holdings Table &amp; Performance Chart" data-description="Portfolio performance chart (top) + per-holding breakdown. Shows current value, amount held, coin price, and period gain or loss for each asset."><img src="/products/hodlings/gallery/1%20Portfolio%20Table.webp" width="1080" height="1920" loading="lazy" decoding="async" alt="HODLings portfolio table and performance chart — total value with P&amp;L curve and per-holding breakdown showing value, quantity, price and gain" /></a>
+  <a href="/products/hodlings/gallery/2%20Portfiolio%20Diversification%20%28Pie%29.webp" class="glightbox" data-gallery="hodlings-portfolio" data-title="Portfolio — Diversification (Pie Chart)" data-description="Portfolio allocation as a donut chart. Each segment shows an asset's percentage share of the total portfolio."><img src="/products/hodlings/gallery/2%20Portfiolio%20Diversification%20%28Pie%29.webp" width="1080" height="1920" loading="lazy" decoding="async" alt="HODLings portfolio diversification donut chart showing percentage allocation for each held asset" /></a>
+  <a href="/products/hodlings/gallery/3%20Portfolio%20Diversification%20%28Bars%29.webp" class="glightbox" data-gallery="hodlings-portfolio" data-title="Portfolio — Diversification (Bar Chart)" data-description="Allocation as a horizontal bar chart. Bar width reflects portfolio share; each row also shows the period price delta."><img src="/products/hodlings/gallery/3%20Portfolio%20Diversification%20%28Bars%29.webp" width="1080" height="1920" loading="lazy" decoding="async" alt="HODLings portfolio diversification bar chart showing each asset's allocation share and period price delta" /></a>
 </p>
 
 ### Market Tracking
@@ -167,9 +166,9 @@ favicon:
 - **Market heatmap:** A treemap colour-coded by price performance for an at-a-glance picture of which coins are up and down across the whole market.
 
 <p class="image-gallery">
-  <a href="/products/hodlings/gallery/4%20Market%20Table.png" class="glightbox" data-gallery="hodlings-market" data-title="Market — Rankings Table" data-description="Full crypto market ranked by market cap. Shows price, fully diluted value (FDV), and the selected period delta. Tap ★ to bookmark a coin for quick access."><img src="/products/hodlings/gallery/4%20Market%20Table.png" loading="lazy" alt="HODLings market rankings table showing cryptocurrency prices, fully diluted value and 1-day price deltas with bookmark and search" /></a>
-  <a href="/products/hodlings/gallery/5%20Market%20Stats.png" class="glightbox" data-gallery="hodlings-market" data-title="Market — Stats, Fear &amp; Greed Index &amp; Macro" data-description="Fear &amp; Greed gauge + total crypto market cap, BTC halving countdown, Bitcoin vs ATH, and macro benchmarks: gold, silver, copper, crude oil, and 10-year Treasury yield."><img src="/products/hodlings/gallery/5%20Market%20Stats.png" loading="lazy" alt="HODLings market stats — Fear and Greed Index gauge, total crypto market cap, BTC halving countdown, BTC vs all-time high, and macro asset prices including gold, silver, copper, crude oil and 10-year treasury yield" /></a>
-  <a href="/products/hodlings/gallery/6%20Market%20HeatMap.png" class="glightbox" data-gallery="hodlings-market" data-title="Market — Heatmap" data-description="Market treemap: every coin is a tile sized by market cap, coloured green (up) or red (down). At a glance you can see which sectors of the market are moving."><img src="/products/hodlings/gallery/6%20Market%20HeatMap.png" loading="lazy" alt="HODLings market heatmap — treemap of the entire crypto market colour-coded by price performance" /></a>
+  <a href="/products/hodlings/gallery/4%20Market%20Table.webp" class="glightbox" data-gallery="hodlings-market" data-title="Market — Rankings Table" data-description="Full crypto market ranked by market cap. Shows price, fully diluted value (FDV), and the selected period delta. Tap ★ to bookmark a coin for quick access."><img src="/products/hodlings/gallery/4%20Market%20Table.webp" width="1080" height="1920" loading="lazy" decoding="async" alt="HODLings market rankings table showing cryptocurrency prices, fully diluted value and 1-day price deltas with bookmark and search" /></a>
+  <a href="/products/hodlings/gallery/5%20Market%20Stats.webp" class="glightbox" data-gallery="hodlings-market" data-title="Market — Stats, Fear &amp; Greed Index &amp; Macro" data-description="Fear &amp; Greed gauge + total crypto market cap, BTC halving countdown, Bitcoin vs ATH, and macro benchmarks: gold, silver, copper, crude oil, and 10-year Treasury yield."><img src="/products/hodlings/gallery/5%20Market%20Stats.webp" width="1080" height="1920" loading="lazy" decoding="async" alt="HODLings market stats — Fear and Greed Index gauge, total crypto market cap, BTC halving countdown, BTC vs all-time high, and macro asset prices including gold, silver, copper, crude oil and 10-year treasury yield" /></a>
+  <a href="/products/hodlings/gallery/6%20Market%20HeatMap.webp" class="glightbox" data-gallery="hodlings-market" data-title="Market — Heatmap" data-description="Market treemap: every coin is a tile sized by market cap, coloured green (up) or red (down). At a glance you can see which sectors of the market are moving."><img src="/products/hodlings/gallery/6%20Market%20HeatMap.webp" width="1080" height="1920" loading="lazy" decoding="async" alt="HODLings market heatmap — treemap of the entire crypto market colour-coded by price performance" /></a>
 </p>
 
 ### News & Sentiment
@@ -178,7 +177,7 @@ favicon:
 - **Article feed with sentiment:** Browse individual news articles tagged with sentiment indicators, publication source, and date. Each article is AI-summarised so you can stay informed at a glance without clicking through.
 
 <p class="image-gallery">
-  <a href="/products/hodlings/gallery/7%20News.png" class="glightbox" data-gallery="hodlings-news" data-title="News — TLDR Digest &amp; Sentiment Feed" data-description="An AI-generated &quot;In short:&quot; digest at the top summarises the day's key stories. Below: individual news cards with a bullish/bearish/neutral sentiment tag, source name, and publication date."><img src="/products/hodlings/gallery/7%20News.png" loading="lazy" alt="HODLings news tab showing an AI-generated TLDR digest at the top followed by individual articles with sentiment icons, source tags and publication date" /></a>
+  <a href="/products/hodlings/gallery/7%20News.webp" class="glightbox" data-gallery="hodlings-news" data-title="News — TLDR Digest &amp; Sentiment Feed" data-description="An AI-generated &quot;In short:&quot; digest at the top summarises the day's key stories. Below: individual news cards with a bullish/bearish/neutral sentiment tag, source name, and publication date."><img src="/products/hodlings/gallery/7%20News.webp" width="1080" height="1920" loading="lazy" decoding="async" alt="HODLings news tab showing an AI-generated TLDR digest at the top followed by individual articles with sentiment icons, source tags and publication date" /></a>
 </p>
 
 ## Why Choose HODLings?
@@ -197,72 +196,72 @@ Try HODLings free at <a href="https://hodlings.app" target="_blank" rel="noopene
 ## Frequently Asked Questions
 
 <details class="faq-item">
-<summary>Is HODLings free?</summary>
+<summary><h3>Is HODLings free?</h3></summary>
 The web version at <a href="https://hodlings.app">hodlings.app</a> is free — it may occasionally ask for optional donation/support. The iOS and Android apps cost a one-time $1 with no support pop-ups, no subscriptions, and no in-app purchases.
 </details>
 
 <details class="faq-item">
-<summary>Do you support the free web version?</summary>
+<summary><h3>Do you support the free web version?</h3></summary>
 Yes. We provide best-effort support by <a href="mailto:support@geosystemsdev.com?subject=Regarding%20HODLings">email</a> for both the free web app and native apps. If HODLings helps you, buying the $1 iOS or Android app directly supports ongoing updates and helps keep the web version sustainable.
 </details>
 
 <details class="faq-item">
-<summary>Why buy the iOS or Android app if the web version is free?</summary>
+<summary><h3>Why buy the iOS or Android app if the web version is free?</h3></summary>
 The native apps are a one-time $1 purchase that helps fund development, maintenance, and support. It is a simple way to back HODLings while getting the same private, ad-free experience with no subscriptions or in-app purchases.
 </details>
 
 <details class="faq-item">
-<summary>Does HODLings require an account or sign-up?</summary>
+<summary><h3>Does HODLings require an account or sign-up?</h3></summary>
 No. HODLings requires no account, no email, and no sign-up of any kind. Just download and start tracking.
 </details>
 
 <details class="faq-item">
-<summary>Where is my portfolio data stored?</summary>
+<summary><h3>Where is my portfolio data stored?</h3></summary>
 Entirely on your device. HODLings uses local on-device storage — your data is never sent to a cloud server or any third party.
 </details>
 
 <details class="faq-item">
-<summary>Is HODLings available on iPhone and Android?</summary>
+<summary><h3>Is HODLings available on iPhone and Android?</h3></summary>
 Yes. HODLings is available on both iOS (iPhone and iPad) and Android.
 </details>
 
 <details class="faq-item">
-<summary>Does the HODLings web app work on desktop and is it responsive?</summary>
+<summary><h3>Does the HODLings web app work on desktop and is it responsive?</h3></summary>
 Yes. The HODLings web app (PWA) works on desktop browsers and is responsive across phones, tablets, and desktop screen sizes.
 </details>
 
 <details class="faq-item">
-<summary>How many cryptocurrencies does HODLings support?</summary>
+<summary><h3>How many cryptocurrencies does HODLings support?</h3></summary>
 HODLings supports over 1,000 cryptocurrencies including Bitcoin (BTC), Ethereum (ETH), Solana (SOL), and many more.
 </details>
 
 <details class="faq-item">
-<summary>Is there a subscription fee?</summary>
+<summary><h3>Is there a subscription fee?</h3></summary>
 No. HODLings has no subscription and no recurring charges. The web version at <a href="https://hodlings.app">hodlings.app</a> is free. The iOS and Android apps are a one-time $1 purchase with no in-app purchases.
 </details>
 
 <details class="faq-item">
-<summary>Can I use HODLings on iPad?</summary>
+<summary><h3>Can I use HODLings on iPad?</h3></summary>
 Yes. The iOS version runs on both iPhone and iPad via the App Store.
 </details>
 
 <details class="faq-item">
-<summary>What is shown on the Markets / Stats page?</summary>
+<summary><h3>What is shown on the Markets / Stats page?</h3></summary>
 The <a href="https://hodlings.app/markets/stats" target="_blank" rel="noopener">Markets / Stats page</a> includes the Fear &amp; Greed Index, total crypto market cap, BTC halving countdown, Bitcoin vs all-time high, and macro indicators such as gold, silver, copper, crude oil, and the 10-year Treasury yield. It is designed for market context and is not financial advice.
 </details>
 
 <details class="faq-item">
-<summary>What is the Fear and Greed Index?</summary>
+<summary><h3>What is the Fear and Greed Index?</h3></summary>
 The Fear and Greed Index is a 0–100 market sentiment score derived from price momentum, trading volume, social media activity, and BTC dominance. A score below 25 signals extreme fear (historically associated with buying opportunities); above 75 signals extreme greed (a common time to exercise caution). HODLings shows both the current value and historical trend.
 </details>
 
 <details class="faq-item">
-<summary>Does HODLings show ads?</summary>
+<summary><h3>Does HODLings show ads?</h3></summary>
 No. HODLings is completely ad-free with no external trackers or sponsored content.
 </details>
 
 <details class="faq-item">
-<summary>How do I install HODLings as a PWA on iPhone, Android, or desktop?</summary>
+<summary><h3>How do I install HODLings as a PWA on iPhone, Android, or desktop?</h3></summary>
 Open <a href="https://hodlings.app" target="_blank" rel="noopener">hodlings.app</a> in your browser, then:
 <ul>
 <li><strong>iPhone / iPad (Safari):</strong> tap the Share button → "Add to Home Screen".</li>
@@ -273,37 +272,37 @@ The PWA then launches like a native app, with its own icon and full-screen UI.
 </details>
 
 <details class="faq-item">
-<summary>Can I export or back up my portfolio?</summary>
+<summary><h3>Can I export or back up my portfolio?</h3></summary>
 Yes. HODLings lets you export your portfolio to a local file so you can back it up or move it between devices and platforms (web, iOS, Android). Re-import the file on any device to restore your holdings — no account required.
 </details>
 
 <details class="faq-item">
-<summary>What happens to my data if I clear browser storage or reinstall the app?</summary>
+<summary><h3>What happens to my data if I clear browser storage or reinstall the app?</h3></summary>
 Because HODLings stores everything on-device, clearing browser site data (web app) or uninstalling the native app will erase your portfolio on that device. We strongly recommend periodically exporting a backup file (see above) and saving it somewhere safe.
 </details>
 
 <details class="faq-item">
-<summary>Which browsers does the HODLings web app support?</summary>
+<summary><h3>Which browsers does the HODLings web app support?</h3></summary>
 HODLings works in all modern browsers: Chrome, Safari, Firefox, Edge, Brave, and other Chromium-based browsers, on both desktop and mobile. For the best PWA install experience, use Safari on iOS/iPadOS and Chrome (or any Chromium browser) on Android and desktop.
 </details>
 
 <details class="faq-item">
-<summary>How often are prices updated, and where does the data come from?</summary>
+<summary><h3>How often are prices updated, and where does the data come from?</h3></summary>
 HODLings pulls cryptocurrency prices, market data, and news from reputable third-party market data providers and is refreshed frequently throughout the day. Only public market data is fetched — your holdings are never sent anywhere.
 </details>
 
 <details class="faq-item">
-<summary>Can I track multiple portfolios or wallets?</summary>
+<summary><h3>Can I track multiple portfolios or wallets?</h3></summary>
 HODLings is designed for a single private portfolio per device, which keeps the experience simple and fast. You can use separate browser profiles (web) or separate devices to keep distinct portfolios isolated.
 </details>
 
 <details class="faq-item">
-<summary>How do I get a refund on the $1 iOS or Android app?</summary>
+<summary><h3>How do I get a refund on the $1 iOS or Android app?</h3></summary>
 Refunds are handled by Apple and Google directly under their standard store policies. On iOS, request a refund at <a href="https://reportaproblem.apple.com" target="_blank" rel="noopener">reportaproblem.apple.com</a>. On Android, request one via the <a href="https://play.google.com" target="_blank" rel="noopener">Google Play store</a> within the eligible window. We're happy to help — just <a href="mailto:support@geosystemsdev.com?subject=Regarding%20HODLings">email us</a>.
 </details>
 
 <details class="faq-item">
-<summary>What fiat currencies are supported?</summary>
+<summary><h3>What fiat currencies are supported?</h3></summary>
 HODLings supports 28 fiat currencies: USD, EUR, GBP, AUD, CAD, SGD, JPY, CHF, CNY, INR, KRW, BRL, HKD, MXN, MYR, NZD, SEK, NOK, DKK, PLN, CZK, HUF, IDR, ILS, PHP, THB, TRY, and ZAR.
 </details>
 
