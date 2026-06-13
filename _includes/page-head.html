@@ -14,7 +14,5 @@
 {% seo %}
 {% include schema.html %}
 
+{% if page.preload_image %}<link rel="preload" href="{{ page.preload_image | relative_url }}" as="image"{% if page.preload_image_type %} type="{{ page.preload_image_type }}"{% endif %} fetchpriority="high">{% endif %}
 <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
-<link href="https://vjs.zencdn.net/7.4.1/video-js.css" rel="stylesheet">
-<script>window.HELP_IMPROVE_VIDEOJS = false;</script>

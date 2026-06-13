@@ -13,10 +13,11 @@
   --bg-header: rgba(10, 14, 26, 0.94);
   --accent: #6366f1;
   --accent-hover: #818cf8;
+  --accent-light: #a5b4fc;
   --accent-glow: rgba(99, 102, 241, 0.15);
   --text-primary: #e2e8f0;
   --text-secondary: #b8c5d5;
-  --text-muted: #64748b;
+  --text-muted: #94a3b8;
   --border: #1e293b;
   --border-light: #252f41;
   --shadow: 0 4px 24px rgba(0, 0, 0, 0.5);
@@ -270,10 +271,9 @@ img {
 }
 
 .nav-chevron {
-  font-size: 0.75rem;
-  line-height: 1;
-  display: flex;
-  align-items: center;
+  width: 0.7rem;
+  height: 0.7rem;
+  flex-shrink: 0;
   transition: transform 0.2s;
 }
 
@@ -392,39 +392,36 @@ img {
 /* ===========================
    Social Links
    =========================== */
-.social-links {
-  display: flex;
-  gap: 0.4rem;
-  margin-top: 1rem;
-  flex-wrap: wrap;
-}
-
-a.fab {
+a.social-icon {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  width: 44px;
-  height: 44px;
-  font-size: 20px !important;
+  width: 40px;
+  height: 40px;
   border-radius: 9px;
   text-decoration: none !important;
   text-underline-offset: unset;
   transition: opacity 0.2s, transform 0.15s;
-  color: white !important;
-  -webkit-text-fill-color: white !important;
+  color: #ffffff;
+
+  svg {
+    width: 18px;
+    height: 18px;
+    display: block;
+  }
 }
 
-a.fab:hover {
-  opacity: 0.8;
+a.social-icon:hover {
+  opacity: 0.85;
   transform: translateY(-2px);
 }
 
-.fa-x-twitter  { background: #000000; }
-.fa-medium     { background: #00AB6C; }
-.fa-linkedin   { background: #0077b5; }
-.fa-youtube    { background: #cc0000; }
-.fa-reddit     { background: #ff5700; }
-.fa-product-hunt { background: #da552f; }
+.social-x           { background: #000000; }
+.social-medium      { background: #00AB6C; }
+.social-linkedin    { background: #0077b5; }
+.social-youtube     { background: #cc0000; }
+.social-reddit      { background: #ff5700; }
+.social-product-hunt { background: #da552f; }
 
 /* ===========================
    Page Content Typography
@@ -561,10 +558,10 @@ a.fab:hover {
 
   .hodlings-web-link-kicker {
     font-size: 0.74rem;
-    font-weight: 600;
+    font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 0.08em;
-    color: var(--accent);
+    color: var(--accent-light);
     white-space: nowrap;
   }
 
@@ -578,7 +575,7 @@ a.fab:hover {
   .hodlings-web-link-arrow {
     font-size: 1.02rem;
     line-height: 1;
-    color: var(--accent);
+    color: var(--accent-light);
   }
 }
 
@@ -665,6 +662,8 @@ a.fab:hover {
 .faq-item {
   border-top: 1px solid var(--border);
   padding: 0;
+  content-visibility: auto;
+  contain-intrinsic-size: auto 56px;
 
   &:last-of-type {
     border-bottom: 1px solid var(--border);

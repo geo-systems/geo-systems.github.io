@@ -97,6 +97,8 @@ image:
     alt: "HODLings — private cryptocurrency tracker for web, iPhone, and Android"
     width: 1234
     height: 714
+preload_image: /products/hodlings/video-poster.jpg
+preload_image_type: image/jpeg
 favicon:
     ico: /assets/images/favicons/hodlings/favicon.ico
     svg: /assets/images/favicons/hodlings/favicon.svg
@@ -128,19 +130,20 @@ favicon:
 
     <div class="buy-from-store-link">
         <a href="https://play.google.com/store/apps/details?id=app.hodlings.twa" target="_blank" rel="noopener noreferrer">
-            <img src="/assets/images/store-badges/download_google_play_320.png" alt="Get it on Google Play" />
+            <img src="/assets/images/store-badges/download_google_play_320.png" width="160" height="48" alt="Get it on Google Play" />
         </a>
     </div>
     <div class="buy-from-store-link">
         <a href="https://apps.apple.com/app/hodlings/id6759246821" target="_blank" rel="noopener noreferrer">
-            <img src="/assets/images/store-badges/download_apple_store_320.png" alt="Download on the App Store" />
+            <img src="/assets/images/store-badges/download_apple_store_320.png" width="160" height="54" alt="Download on the App Store" />
         </a>
     </div>
 </div>
 
 <p class="image-gallery">
-<video controls id="myVideo" width="100%" style="max-width: 400px; max-height: 60dvh; height: auto; display: block; margin: 0 auto;" class='video-js' preload='metadata' data-setup='{}' title="HODLings app demo video" aria-label="HODLings app demo video" playsinline poster="/products/hodlings/video-poster.jpg">
+<video controls id="myVideo" width="400" height="934" style="max-width: 400px; max-height: 60dvh; height: auto; display: block; margin: 0 auto;" preload="none" title="HODLings app demo video" aria-label="HODLings app demo video" playsinline poster="/products/hodlings/video-poster.jpg">
     <source src="/products/hodlings/HODLings-youtube.mp4" type="video/mp4">
+    <track kind="captions" srclang="en" src="/products/hodlings/captions.vtt" label="English (visual demo, no narration)" default>
     Your browser does not support HTML5 video. You can download the demo directly from <a href="/products/hodlings/HODLings-youtube.mp4">this link</a>.
 </video>
 </p>
