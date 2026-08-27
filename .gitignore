@@ -26,6 +26,7 @@ package-lock.json*
 # OCR
 _site/
 _cache
+docs/
 
 github-token.txt
 Git.Dockerfile
