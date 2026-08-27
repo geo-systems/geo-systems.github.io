@@ -1,6 +1,6 @@
 ---
 layout: default
-canonical_url: https://geosystemsdev.com/products/math-plot/
+canonical_url: https://www.geosystemsdev.com/products/math-plot/
 title: MathPlot
 subtitle: Add 2D math graphs to your Canva design — free!
 description: "MathPlot is a free Canva app for adding 2D mathematical graphs to your designs. Plot linear, parametric, and polar functions using MathJS syntax directly inside Canva."

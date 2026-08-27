@@ -1,6 +1,6 @@
 ---
 layout: default
-canonical_url: https://geosystemsdev.com/products/textq/
+canonical_url: https://www.geosystemsdev.com/products/textq/
 title: "TextQ: CSV Analysis and SQL Query App for Large Files"
 subtitle: Analyse and process large CSV files offline!
 description: "TextQ is a macOS app for analysing and processing large CSV and tabular datasets with a visual query builder or SQL. Data is processed locally, with no cloud upload required."
@@ -42,12 +42,12 @@ schema:
     video:
         name: TextQ demo video
         description: Demo of TextQ offline CSV analysis and SQL querying workflow.
-        content_url: https://geosystemsdev.com/products/textq/TextQ.mp4
-        thumbnail_url: https://geosystemsdev.com/assets/images/store-badges/download_apple_store_320.png
+        content_url: https://www.geosystemsdev.com/products/textq/TextQ.mp4
+        thumbnail_url: https://www.geosystemsdev.com/assets/images/store-badges/download_apple_store_320.png
         upload_date: 2026-03-13
 last_modified_at: 2026-03-27
 image:
-    path: https://geosystemsdev.com/assets/images/store-badges/download_apple_store_320.png
+    path: https://www.geosystemsdev.com/assets/images/store-badges/download_apple_store_320.png
     alt: "TextQ offline CSV analysis and SQL query desktop app for macOS"
     width: 320
     height: 95

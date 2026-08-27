@@ -1,6 +1,6 @@
 ---
 layout: default
-canonical_url: https://geosystemsdev.com/products/data-transformer/
+canonical_url: https://www.geosystemsdev.com/products/data-transformer/
 title: "Data Transformer: JSON, CSV, XML, YAML and Excel Converter"
 subtitle: Transform your data into a different format!
 description: "Data Transformer is a desktop app for converting data between JSON, CSV, XML, YAML and Excel formats on macOS and Windows. Files stay on your machine, with no cloud uploads required."
@@ -51,7 +51,7 @@ schema:
     download_url_2: https://www.microsoft.com/en-au/p/data-transformer/9p2xp6nt2pv2
 last_modified_at: 2026-03-27
 image:
-    path: https://geosystemsdev.com/assets/images/store-badges/download_apple_store_320.png
+    path: https://www.geosystemsdev.com/assets/images/store-badges/download_apple_store_320.png
     alt: "Data Transformer offline desktop app for JSON, CSV, XML, YAML and Excel conversion"
     width: 320
     height: 95

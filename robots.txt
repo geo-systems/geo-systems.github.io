@@ -8,8 +8,8 @@ Disallow: /telemetry/
 # Sitemaps help crawlers find your product pages faster
 Sitemap: https://www.geosystemsdev.com/sitemap.xml
 
-# Specific permissions for AI and LLM Crawlers (2026 Standards)
-# This allows AI to cite your tools in "Best offline software" queries
+# Explicit permissions for major AI search and training crawlers.
+# Access supports discovery but does not guarantee indexing or citation.
 User-agent: GPTBot
 Allow: /
 

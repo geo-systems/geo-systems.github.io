@@ -1,6 +1,6 @@
 ---
 layout: default
-canonical_url: https://geosystemsdev.com/products/file-content-finder/
+canonical_url: https://www.geosystemsdev.com/products/file-content-finder/
 title: "File Content Finder: Search PDF, Word, Excel and Others"
 subtitle: Search your files by content, not just by name
 description: "File Content Finder is a desktop search app for macOS and Windows that finds text inside PDF, Word, Excel, and text files in real time without indexing."
@@ -45,12 +45,12 @@ schema:
     video:
         name: File Content Finder demo video
         description: Demo of File Content Finder searching documents by file contents in real time.
-        content_url: https://geosystemsdev.com/products/file-content-finder/fcf-from-youtube.mp4
-        thumbnail_url: https://geosystemsdev.com/assets/images/store-badges/download_microsoft_store_320_sized.png
+        content_url: https://www.geosystemsdev.com/products/file-content-finder/fcf-from-youtube.mp4
+        thumbnail_url: https://www.geosystemsdev.com/assets/images/store-badges/download_microsoft_store_320_sized.png
         upload_date: 2026-03-13
 last_modified_at: 2026-03-27
 image:
-    path: https://geosystemsdev.com/assets/images/store-badges/download_microsoft_store_320_sized.png
+    path: https://www.geosystemsdev.com/assets/images/store-badges/download_microsoft_store_320_sized.png
     alt: "File Content Finder desktop app for searching inside PDF, Word, Excel and image files"
     width: 320
     height: 95

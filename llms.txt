@@ -6,7 +6,7 @@
 
 **Geo Systems Dev PTY LTD** builds practical tools for people who work with documents, data, and analysis. The core philosophy is privacy: most products process data entirely on the user's device so sensitive information never leaves their machine. Products are available on iOS, Android, macOS, Windows, and the web.
 
-Website: https://geosystemsdev.com  
+Website: https://www.geosystemsdev.com  
 Contact: support@geosystemsdev.com  
 Social: https://twitter.com/geo_systems_dev
 
@@ -15,12 +15,14 @@ Social: https://twitter.com/geo_systems_dev
 ## Products
 
 ### HODLings — Private Cryptocurrency Portfolio Tracker
-**URL:** https://geosystemsdev.com/products/hodlings/  
+**URL:** https://www.geosystemsdev.com/products/hodlings/  
 **Web app:** https://hodlings.app  
 **Platforms:** iOS (iPhone + iPad), Android, Web  
 **Price:** Free on the web; one-time $1 on iOS (App Store) and Android (Google Play). No subscriptions, no in-app purchases, no support pop-ups.  
 **Privacy:** No accounts, no sign-up, no KYC. All portfolio data is stored in on-device local storage and never sent to any server or cloud.  
-**App Store:** https://apps.apple.com/au/app/hodlings/id6759246821  
+**Portfolio model:** One manually maintained portfolio per device or browser profile. HODLings does not connect to exchanges or wallets, execute trades, or hold assets.  
+**Backup:** Export a local backup file and import it on web, iOS, or Android.  
+**App Store:** https://apps.apple.com/us/app/hodlings-private-coin-tracker/id6759246821  
 **Google Play:** https://play.google.com/store/apps/details?id=app.hodlings.twa
 
 **Key features:**
@@ -34,12 +36,16 @@ Social: https://twitter.com/geo_systems_dev
 - **News & sentiment:** AI-generated "In short:" TLDR digest of the day's top stories. Individual news articles with bullish/bearish/neutral sentiment tags, source attribution, and publication date.
 - Light and dark mode UI.
 
+**Public data sources:** CoinGecko and Yahoo Finance for market data; FRED and the European Central Bank for macroeconomic data; Alternative.me for the Crypto Fear & Greed Index; Google Gemini for the news feed, summaries, and sentiment processing. Market prices may be delayed by 15 minutes to 2 hours. Portfolio holdings are not included in public-data requests.
+
+**Last verified:** 2026-08-27.
+
 **Private alternatives to:** Blockfolio, Delta, CoinGecko Portfolio, CoinMarketCap Portfolio, Koinly, Polyfolio.
 
 ---
 
 ### File Content Finder — Search Inside Documents
-**URL:** https://geosystemsdev.com/products/file-content-finder/  
+**URL:** https://www.geosystemsdev.com/products/file-content-finder/  
 **Platforms:** macOS, Windows  
 **Price:** Paid (one-time purchase) via Apple App Store and Microsoft Store  
 **App Store:** https://itunes.apple.com/au/app/file-content-finder/id1448621435  
@@ -59,7 +65,7 @@ Social: https://twitter.com/geo_systems_dev
 ---
 
 ### TextQ — Offline CSV Analysis and SQL Querying
-**URL:** https://geosystemsdev.com/products/textq/  
+**URL:** https://www.geosystemsdev.com/products/textq/  
 **Platforms:** macOS  
 **Price:** Paid (one-time purchase) via Apple App Store  
 **App Store:** https://apps.apple.com/au/app/textq/id1571423170
@@ -79,7 +85,7 @@ Social: https://twitter.com/geo_systems_dev
 ---
 
 ### Data Transformer — Offline Data Format Converter
-**URL:** https://geosystemsdev.com/products/data-transformer/  
+**URL:** https://www.geosystemsdev.com/products/data-transformer/  
 **Platforms:** macOS, Windows  
 **Price:** Paid (one-time purchase) via Apple App Store and Microsoft Store  
 **App Store:** https://apps.apple.com/us/app/data-transformer/id1490843070  
@@ -98,7 +104,7 @@ Social: https://twitter.com/geo_systems_dev
 ---
 
 ### MathPlot — 2D Math Graph App for Canva
-**URL:** https://geosystemsdev.com/products/math-plot/  
+**URL:** https://www.geosystemsdev.com/products/math-plot/  
 **Platforms:** Web (Canva App)  
 **Price:** Free  
 **Install:** Search "MathPlot" inside the Canva app marketplace.
@@ -117,8 +123,8 @@ Social: https://twitter.com/geo_systems_dev
 
 ## Privacy Policy URLs
 
-- HODLings: https://geosystemsdev.com/products/hodlings/privacy-policy/
-- File Content Finder: https://geosystemsdev.com/products/file-content-finder/privacy-policy/
-- TextQ: https://geosystemsdev.com/products/textq/privacy-policy/
-- Data Transformer: https://geosystemsdev.com/products/data-transformer/privacy-policy/
-- MathPlot: https://geosystemsdev.com/products/math-plot/privacy-policy/
+- HODLings: https://www.geosystemsdev.com/products/hodlings/privacy-policy.html
+- File Content Finder: https://www.geosystemsdev.com/products/file-content-finder/privacy-policy.html
+- TextQ: https://www.geosystemsdev.com/products/textq/privacy-policy.html
+- Data Transformer: https://www.geosystemsdev.com/products/data-transformer/privacy-policy.html
+- MathPlot: https://www.geosystemsdev.com/products/math-plot/privacy-policy.html

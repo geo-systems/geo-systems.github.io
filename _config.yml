@@ -1,10 +1,9 @@
 theme: jekyll-theme-midnight
 title: Geo Systems Dev
-url: https://geosystemsdev.com
+url: https://www.geosystemsdev.com
 subtitle: Private, offline-first apps for desktop and mobile
 description: "Geo Systems Dev builds private, offline-first productivity apps for desktop and mobile — covering crypto portfolio tracking, document search, data format conversion, CSV analysis, and math graphing."
 show_downloads: false
-google_analytics: "UA-136522698-2"
 plugins:
 - jekyll-seo-tag
 - jekyll-sitemap

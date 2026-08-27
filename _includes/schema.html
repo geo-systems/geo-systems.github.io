@@ -4,17 +4,34 @@
 {
   "@context": "https://schema.org",
   "@type": "SoftwareApplication",
-  "name": {{ page.title | jsonify }},
+  "@id": {{ page.canonical_url | append: "#software-application" | jsonify }},
+  "name": {{ s.name | default: page.title | jsonify }}{% if s.alternate_name %},
+  "alternateName": {{ s.alternate_name | jsonify }}{% endif %},
   "description": {{ page.description | jsonify }},
   "url": {{ page.canonical_url | default: site.url | jsonify }},
   "applicationCategory": {{ s.category | jsonify }},
-  "operatingSystem": {{ s.os | jsonify }}{% if s.price %},
+  "operatingSystem": {{ s.os | jsonify }}{% if s.subcategory %},
+  "applicationSubCategory": {{ s.subcategory | jsonify }}{% endif %}{% if s.is_accessible_for_free != nil %},
+  "isAccessibleForFree": {{ s.is_accessible_for_free | jsonify }}{% endif %}{% if page.image.path %},
+  "image": {{ page.image.path | jsonify }}{% endif %}{% if s.screenshots %},
+  "screenshot": {{ s.screenshots | jsonify }}{% endif %}{% if page.last_modified_at %},
+  "dateModified": {{ page.last_modified_at | date: "%Y-%m-%d" | jsonify }}{% endif %}{% if s.offers %},
+  "offers": [
+    {% for offer in s.offers %}{
+      "@type": "Offer",
+      "url": {{ offer.url | jsonify }},
+      "price": {{ offer.price | jsonify }}{% if offer.currency %},
+      "priceCurrency": {{ offer.currency | jsonify }}{% endif %}{% if offer.availability %},
+      "availability": {{ offer.availability | jsonify }}{% endif %}
+    }{% unless forloop.last %},{% endunless %}{% endfor %}
+  ]{% elsif s.price %},
   "offers": {
     "@type": "Offer",
     "price": {{ s.price | jsonify }},
     "priceCurrency": {{ s.currency | default: "USD" | jsonify }}
   }{% endif %}{% if s.download_url_1 or s.download_url_2 %},
-  "downloadUrl": [{% if s.download_url_1 %}{{ s.download_url_1 | jsonify }}{% endif %}{% if s.download_url_1 and s.download_url_2 %}, {% endif %}{% if s.download_url_2 %}{{ s.download_url_2 | jsonify }}{% endif %}]{% endif %}{% if feature_list %},
+  "installUrl": [{% if s.download_url_1 %}{{ s.download_url_1 | jsonify }}{% endif %}{% if s.download_url_1 and s.download_url_2 %}, {% endif %}{% if s.download_url_2 %}{{ s.download_url_2 | jsonify }}{% endif %}]{% endif %}{% if s.same_as %},
+  "sameAs": {{ s.same_as | jsonify }}{% endif %}{% if feature_list %},
   "featureList": {{ feature_list | jsonify }}{% endif %}{% if s.rating %},
   "aggregateRating": {
     "@type": "AggregateRating",
@@ -23,9 +40,13 @@
   }{% endif %},
   "author": {
     "@type": "Organization",
+    "@id": "https://www.geosystemsdev.com/#organization",
     "name": "Geo Systems Dev PTY LTD",
-    "url": "https://geosystemsdev.com"
-  }
+    "url": "https://www.geosystemsdev.com",
+    "logo": "https://www.geosystemsdev.com/favicon.ico"
+  },
+  "publisher": { "@id": "https://www.geosystemsdev.com/#organization" },
+  "mainEntityOfPage": {{ page.canonical_url | default: site.url | jsonify }}
 }
 </script>
 {% endif %}{% endif %}
@@ -48,7 +69,7 @@
   "publisher": {
     "@type": "Organization",
     "name": "Geo Systems Dev PTY LTD",
-    "url": "https://geosystemsdev.com"
+    "url": "https://www.geosystemsdev.com"
   }
 }
 </script>

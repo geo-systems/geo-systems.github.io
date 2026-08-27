@@ -1,0 +1,38 @@
+#!/bin/sh
+# Compile assets/css/style.scss to _includes/style.css (compressed flat CSS
+# wrapped in {% raw %} tags) so it can be inlined in <head> via
+# {% include style.css %}. Run this after editing style.scss.
+#
+# Requires: npx (Node.js). Uses a pinned dart-sass release so generated CSS is
+# reproducible across local and CI builds.
+
+set -e
+
+cd "$(dirname "$0")/.."
+
+SRC="assets/css/style.scss"
+DST="_includes/style.css"
+TMP="$(mktemp -t inline-css.XXXXXX.scss)"
+CSS_TMP="$(mktemp -t inline-css.XXXXXX.css)"
+trap 'rm -f "$TMP" "$CSS_TMP"' EXIT
+NPM_CONFIG_CACHE="${TMPDIR:-/tmp}/geo-systems-npm-cache"
+export NPM_CONFIG_CACHE
+
+# Strip Jekyll front matter (first 4 lines: ---, ---, blank, @import) and
+# the theme @import (resolves a partial that's intentionally empty).
+tail -n +5 "$SRC" | grep -v '^@import "jekyll-theme-midnight"' > "$TMP"
+
+# --no-charset is required: in compressed mode dart-sass prepends a UTF-8 BOM
+# (instead of @charset) whenever the output contains non-ASCII characters. The
+# CSS is inlined mid-document in a <style> tag, where a BOM is not stripped and
+# is not CSS whitespace — it would invalidate the first selector and silently
+# drop the whole :root{} custom-property block.
+npx --yes sass@1.92.1 "$TMP" "$CSS_TMP" --style=compressed --no-source-map --no-charset
+
+{
+    printf '{%% raw %%}\n'
+    cat "$CSS_TMP"
+    printf '\n{%% endraw %%}\n'
+} > "$DST"
+
+printf 'Wrote %s (%s bytes)\n' "$DST" "$(wc -c < "$DST" | tr -d ' ')"

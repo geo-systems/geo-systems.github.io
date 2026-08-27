@@ -59,8 +59,10 @@ Additionally, you may choose to set the following optional variables:
 
 ```yml
 show_downloads: ["true" or "false" to indicate whether to provide a download URL]
-google_analytics: [Your Google Analytics tracking ID]
 ```
+
+This site intentionally ships no analytics or tracking of any kind, so the
+theme's `google_analytics` option is not wired up — setting it does nothing.
 
 ### Stylesheet
 
@@ -75,8 +77,15 @@ If you'd like to add your own custom styles:
     @import "{{ site.theme }}";
     ```
 3. Add any custom CSS (or Sass, including imports) you'd like immediately after the `@import` line
+4. Regenerate the inlined production stylesheet:
+    ```bash
+    script/build-inline-css
+    ```
 
 *Note: If you'd like to change the theme's Sass variables, you must set new values before the `@import` line in your stylesheet.*
+
+The generated `_includes/style.css` file is committed because GitHub Pages does
+not run the Node-based Sass step. CI regenerates it and fails if it is stale.
 
 ### Layouts
 

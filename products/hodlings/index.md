@@ -1,7 +1,7 @@
 ---
 layout: default
-canonical_url: https://geosystemsdev.com/products/hodlings/
-title: "HODLings: Private Crypto Tracker for Web, iPhone & Android"
+canonical_url: https://www.geosystemsdev.com/products/hodlings/
+title: "Private Crypto Portfolio Tracker — HODLings"
 subtitle: "Track Bitcoin, Ethereum & 1000+ coins privately — free web app, $1 native apps"
 description: "Privacy-first crypto portfolio tracker for web, iPhone & Android. Free at hodlings.app or $1 native apps — no accounts, no ads, on-device storage."
 tags:
@@ -59,14 +59,19 @@ keywords:
     - private crypto tracker instead of coinmarketcap
 schema:
     type: SoftwareApplication
+    name: HODLings
+    alternate_name: HODLings — Private Crypto Portfolio Tracker
     category: FinanceApplication
+    subcategory: Cryptocurrency Portfolio Tracker
     os:
         - Web
         - iOS
+        - iPadOS
         - Android
+    is_accessible_for_free: true
     featureList:
         - "Free web version at hodlings.app — optional support"
-        - "100% Private: No accounts, no KYC, no ads"
+        - "Private by design: no accounts, no KYC, no ads"
         - "On-device local storage: data stays in your browser or on your iPhone/Android device"
         - Portfolio performance chart across 1D, 7D, 30D, 1Y and ALL timeframes
         - Holdings table with value, quantity, price and percentage gain per asset
@@ -78,22 +83,40 @@ schema:
         - Supports 1000+ cryptocurrencies and 28 fiat currencies
         - Light and dark mode UI
     download_url_1: https://play.google.com/store/apps/details?id=app.hodlings.twa
-    download_url_2: https://apps.apple.com/au/app/hodlings/id6759246821
-    price: "1.00"
-    currency: USD
+    download_url_2: https://apps.apple.com/us/app/hodlings-private-coin-tracker/id6759246821
+    offers:
+        - url: https://hodlings.app
+          price: "0"
+          availability: https://schema.org/InStock
+        - url: https://apps.apple.com/us/app/hodlings-private-coin-tracker/id6759246821
+          price: "0.99"
+          currency: USD
+          availability: https://schema.org/InStock
+        - url: https://play.google.com/store/apps/details?id=app.hodlings.twa
+          price: "1.00"
+          currency: USD
+          availability: https://schema.org/InStock
+    same_as:
+        - https://hodlings.app
+        - https://apps.apple.com/us/app/hodlings-private-coin-tracker/id6759246821
+        - https://play.google.com/store/apps/details?id=app.hodlings.twa
+    screenshots:
+        - https://www.geosystemsdev.com/products/hodlings/gallery/1%20Portfolio%20Table.webp
+        - https://www.geosystemsdev.com/products/hodlings/gallery/5%20Market%20Stats.webp
+        - https://www.geosystemsdev.com/products/hodlings/gallery/7%20News.webp
     video:
         name: HODLings app demo video
         description: Demo of HODLings private crypto portfolio tracker for web, iOS, and Android.
-        content_url: https://geosystemsdev.com/products/hodlings/HODLings-youtube.mp4
-        thumbnail_url: https://geosystemsdev.com/products/hodlings/video-poster.jpg
+        content_url: https://www.geosystemsdev.com/products/hodlings/HODLings-youtube.mp4
+        thumbnail_url: https://www.geosystemsdev.com/products/hodlings/video-poster.jpg
         upload_date: 2026-03-13
         duration: PT28S
         width: 428
         height: 934
 glightbox: true
-last_modified_at: 2026-05-24
+last_modified_at: 2026-08-27
 image:
-    path: https://geosystemsdev.com/products/hodlings/background-img.png
+    path: https://www.geosystemsdev.com/products/hodlings/background-img.png
     alt: "HODLings — private cryptocurrency tracker for web, iPhone, and Android"
     width: 1234
     height: 714
@@ -134,11 +157,26 @@ favicon:
         </a>
     </div>
     <div class="buy-from-store-link">
-        <a href="https://apps.apple.com/app/hodlings/id6759246821" target="_blank" rel="noopener noreferrer">
+        <a href="https://apps.apple.com/us/app/hodlings-private-coin-tracker/id6759246821" target="_blank" rel="noopener noreferrer">
             <img src="/assets/images/store-badges/download_apple_store_320.png" width="160" height="54" alt="Download on the App Store" />
         </a>
     </div>
 </div>
+
+## HODLings at a glance
+
+<table class="product-facts">
+<tbody>
+<tr><th scope="row">Account required</th><td>No</td></tr>
+<tr><th scope="row">Portfolio storage</th><td>Local storage on your device</td></tr>
+<tr><th scope="row">Wallet or exchange sync</th><td>No — holdings are entered manually</td></tr>
+<tr><th scope="row">Portfolios</th><td>One private portfolio per device or browser profile</td></tr>
+<tr><th scope="row">Web price</th><td>Free, with optional support prompts</td></tr>
+<tr><th scope="row">Native app price</th><td>One-time store purchase; no subscription or in-app purchases</td></tr>
+<tr><th scope="row">Backup and transfer</th><td>Manual export and import between web, iOS, and Android</td></tr>
+<tr><th scope="row">Trading and custody</th><td>None — HODLings tracks values but never holds or trades assets</td></tr>
+</tbody>
+</table>
 
 <p class="image-gallery">
 <video controls id="myVideo" width="400" height="934" style="max-width: 400px; max-height: 60dvh; height: auto; display: block; margin: 0 auto;" preload="none" title="HODLings app demo video" aria-label="HODLings app demo video" playsinline poster="/products/hodlings/video-poster.jpg">
@@ -183,6 +221,19 @@ favicon:
   <a href="/products/hodlings/gallery/7%20News.webp" class="glightbox" data-gallery="hodlings-news" data-title="News — TLDR Digest &amp; Sentiment Feed" data-description="An AI-generated &quot;In short:&quot; digest at the top summarises the day's key stories. Below: individual news cards with a bullish/bearish/neutral sentiment tag, source name, and publication date."><img src="/products/hodlings/gallery/7%20News.webp" width="1080" height="1920" loading="lazy" decoding="async" alt="HODLings news tab showing an AI-generated TLDR digest at the top followed by individual articles with sentiment icons, source tags and publication date" /></a>
 </p>
 
+## Privacy and data sources
+
+Your portfolio amounts are stored in local storage on your device. HODLings does not require an account, and portfolio contents are not included when the app requests public market and news data. Read the full <a href="/products/hodlings/privacy-policy.html">HODLings privacy policy</a> or review Apple's <a href="https://apps.apple.com/us/app/hodlings-private-coin-tracker/id6759246821" target="_blank" rel="noopener noreferrer">App Privacy disclosure</a>.
+
+HODLings uses named third-party sources for public reference data:
+
+- <a href="https://www.coingecko.com/en/api/" target="_blank" rel="noopener noreferrer">CoinGecko</a> and <a href="https://finance.yahoo.com/" target="_blank" rel="noopener noreferrer">Yahoo Finance</a> for cryptocurrency, equity, commodity, and ETF market data.
+- <a href="https://fred.stlouisfed.org/" target="_blank" rel="noopener noreferrer">FRED</a> and the <a href="https://www.ecb.europa.eu/" target="_blank" rel="noopener noreferrer">European Central Bank</a> for macroeconomic, interest-rate, and foreign-exchange data.
+- <a href="https://alternative.me/crypto/fear-and-greed-index/" target="_blank" rel="noopener noreferrer">Alternative.me</a> for the Crypto Fear &amp; Greed Index.
+- <a href="https://ai.google.dev/gemini-api/docs" target="_blank" rel="noopener noreferrer">Google Gemini</a> for the news feed, summaries, and sentiment processing.
+
+Market prices are informational and may be delayed by 15 minutes to two hours. HODLings does not provide financial advice.
+
 ## Why Choose HODLings?
 
 - **Truly private:** No accounts, no sign-ups, no KYC. Your portfolio lives in on-device local storage — never on a server.
@@ -190,27 +241,19 @@ favicon:
 - **One fair price:** Free on the web. One-time $1 on iOS and Android — no subscriptions, no in-app purchases.
 - **Polished experience:** Light and dark mode, minimalist design, works on web, iPhone, iPad, and Android.
 
-The privacy-first alternative to Blockfolio, Delta, CoinGecko Portfolio, CoinMarketCap, and Koinly — same core tracking features, zero data collection.
+For people comparing Blockfolio, Delta, CoinGecko Portfolio, CoinMarketCap, or Koinly, HODLings focuses on manual, on-device portfolio tracking rather than account, exchange, or wallet syncing.
 
 **Stop being the product. Start being the investor.**
 
 Try HODLings free at <a href="https://hodlings.app" target="_blank" rel="noopener">hodlings.app</a>, or pick up the native app for $1 on iOS or Android. Feel free to <a href="mailto:support@geosystemsdev.com?subject=Regarding%20HODLings">email us</a> for any inquiries.
+
+<small>Product information last verified 27 August 2026.</small>
 
 ## Frequently Asked Questions
 
 <details class="faq-item">
 <summary><h3>Is HODLings free?</h3></summary>
 The web version at <a href="https://hodlings.app">hodlings.app</a> is free — it may occasionally ask for optional donation/support. The iOS and Android apps cost a one-time $1 with no support pop-ups, no subscriptions, and no in-app purchases.
-</details>
-
-<details class="faq-item">
-<summary><h3>Do you support the free web version?</h3></summary>
-Yes. We provide best-effort support by <a href="mailto:support@geosystemsdev.com?subject=Regarding%20HODLings">email</a> for both the free web app and native apps. If HODLings helps you, buying the $1 iOS or Android app directly supports ongoing updates and helps keep the web version sustainable.
-</details>
-
-<details class="faq-item">
-<summary><h3>Why buy the iOS or Android app if the web version is free?</h3></summary>
-The native apps are a one-time $1 purchase that helps fund development, maintenance, and support. It is a simple way to back HODLings while getting the same private, ad-free experience with no subscriptions or in-app purchases.
 </details>
 
 <details class="faq-item">
@@ -244,23 +287,8 @@ No. HODLings has no subscription and no recurring charges. The web version at <a
 </details>
 
 <details class="faq-item">
-<summary><h3>Can I use HODLings on iPad?</h3></summary>
-Yes. The iOS version runs on both iPhone and iPad via the App Store.
-</details>
-
-<details class="faq-item">
 <summary><h3>What is shown on the Markets / Stats page?</h3></summary>
 The <a href="https://hodlings.app/markets/stats" target="_blank" rel="noopener">Markets / Stats page</a> includes the Fear &amp; Greed Index, total crypto market cap, BTC halving countdown, Bitcoin vs all-time high, and macro indicators such as gold, silver, copper, crude oil, and the 10-year Treasury yield. It is designed for market context and is not financial advice.
-</details>
-
-<details class="faq-item">
-<summary><h3>What is the Fear and Greed Index?</h3></summary>
-The Fear and Greed Index is a 0–100 market sentiment score derived from price momentum, trading volume, social media activity, and BTC dominance. A score below 25 signals extreme fear (historically associated with buying opportunities); above 75 signals extreme greed (a common time to exercise caution). HODLings shows both the current value and historical trend.
-</details>
-
-<details class="faq-item">
-<summary><h3>Does HODLings show ads?</h3></summary>
-No. HODLings is completely ad-free with no external trackers or sponsored content.
 </details>
 
 <details class="faq-item">
@@ -285,13 +313,8 @@ Because HODLings stores everything on-device, clearing browser site data (web ap
 </details>
 
 <details class="faq-item">
-<summary><h3>Which browsers does the HODLings web app support?</h3></summary>
-HODLings works in all modern browsers: Chrome, Safari, Firefox, Edge, Brave, and other Chromium-based browsers, on both desktop and mobile. For the best PWA install experience, use Safari on iOS/iPadOS and Chrome (or any Chromium browser) on Android and desktop.
-</details>
-
-<details class="faq-item">
 <summary><h3>How often are prices updated, and where does the data come from?</h3></summary>
-HODLings pulls cryptocurrency prices, market data, and news from reputable third-party market data providers and is refreshed frequently throughout the day. Only public market data is fetched — your holdings are never sent anywhere.
+HODLings uses CoinGecko and Yahoo Finance for market data, FRED and the ECB for macroeconomic data, Alternative.me for the Fear &amp; Greed Index, and Google Gemini for the news feed. Market prices may be delayed by 15 minutes to two hours. Only public reference data is requested; your holdings are not included.
 </details>
 
 <details class="faq-item">
@@ -300,188 +323,6 @@ HODLings is designed for a single private portfolio per device, which keeps the 
 </details>
 
 <details class="faq-item">
-<summary><h3>How do I get a refund on the $1 iOS or Android app?</h3></summary>
-Refunds are handled by Apple and Google directly under their standard store policies. On iOS, request a refund at <a href="https://reportaproblem.apple.com" target="_blank" rel="noopener">reportaproblem.apple.com</a>. On Android, request one via the <a href="https://play.google.com" target="_blank" rel="noopener">Google Play store</a> within the eligible window. We're happy to help — just <a href="mailto:support@geosystemsdev.com?subject=Regarding%20HODLings">email us</a>.
-</details>
-
-<details class="faq-item">
 <summary><h3>What fiat currencies are supported?</h3></summary>
 HODLings supports 28 fiat currencies: USD, EUR, GBP, AUD, CAD, SGD, JPY, CHF, CNY, INR, KRW, BRL, HKD, MXN, MYR, NZD, SEK, NOK, DKK, PLN, CZK, HUF, IDR, ILS, PHP, THB, TRY, and ZAR.
 </details>
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Is HODLings free?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The web version at hodlings.app is free — it may occasionally ask for optional donation/support. The iOS and Android apps cost a one-time $1 with no support pop-ups, no subscriptions, and no in-app purchases."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Do you support the free web version?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes. We provide best-effort support by email for both the free web app and native apps. If HODLings helps you, buying the $1 iOS or Android app directly supports ongoing updates and helps keep the web version sustainable."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Why buy the iOS or Android app if the web version is free?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The native apps are a one-time $1 purchase that helps fund development, maintenance, and support. It is a simple way to back HODLings while getting the same private, ad-free experience with no subscriptions or in-app purchases."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Does HODLings require an account or sign-up?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "No. HODLings requires no account, no email, and no sign-up of any kind. Just download and start tracking."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Where is my portfolio data stored?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Entirely on your device. HODLings uses local on-device storage — your data is never sent to a cloud server or any third party."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Is HODLings available on iPhone and Android?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes. HODLings is available on both iOS (iPhone and iPad) and Android."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Does the HODLings web app work on desktop and is it responsive?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes. The HODLings web app (PWA) works on desktop browsers and is responsive across phones, tablets, and desktop screen sizes."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How many cryptocurrencies does HODLings support?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "HODLings supports over 1,000 cryptocurrencies including Bitcoin (BTC), Ethereum (ETH), Solana (SOL), and many more."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Is there a subscription fee?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "No. HODLings has no subscription and no recurring charges. The web version at hodlings.app is free. The iOS and Android apps are a one-time $1 purchase with no in-app purchases."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Can I use HODLings on iPad?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes. The iOS version runs on both iPhone and iPad via the App Store."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is shown on the Markets / Stats page?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The Markets / Stats page includes the Fear and Greed Index, total crypto market cap, BTC halving countdown, Bitcoin vs all-time high, and macro indicators such as gold, silver, copper, crude oil, and the 10-year Treasury yield. It is designed for market context and is not financial advice."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is the Fear and Greed Index?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The Fear and Greed Index is a 0–100 market sentiment score derived from price momentum, trading volume, social media activity, and BTC dominance. A score below 25 signals extreme fear; above 75 signals extreme greed. HODLings shows both the current value and a historical trend chart."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Does HODLings show ads?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "No. HODLings is completely ad-free with no external trackers or sponsored content."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How do I install HODLings as a PWA on iPhone, Android, or desktop?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Open hodlings.app in your browser. On iPhone/iPad (Safari) tap Share then 'Add to Home Screen'. On Android (Chrome) tap the menu then 'Install app' or 'Add to Home screen'. On desktop (Chrome, Edge, Brave) click the install icon in the address bar or use the menu to 'Install HODLings'. The PWA then launches like a native app with its own icon and full-screen UI."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Can I export or back up my portfolio?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes. HODLings lets you export your portfolio to a local file so you can back it up or move it between devices and platforms (web, iOS, Android). Re-import the file on any device to restore your holdings — no account required."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What happens to my data if I clear browser storage or reinstall the app?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Because HODLings stores everything on-device, clearing browser site data (web app) or uninstalling the native app will erase your portfolio on that device. We strongly recommend periodically exporting a backup file and saving it somewhere safe."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Which browsers does the HODLings web app support?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "HODLings works in all modern browsers: Chrome, Safari, Firefox, Edge, Brave, and other Chromium-based browsers, on both desktop and mobile. For the best PWA install experience, use Safari on iOS/iPadOS and Chrome (or any Chromium browser) on Android and desktop."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How often are prices updated, and where does the data come from?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "HODLings pulls cryptocurrency prices, market data, and news from reputable third-party market data providers and is refreshed frequently throughout the day. Only public market data is fetched — your holdings are never sent anywhere."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Can I track multiple portfolios or wallets?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "HODLings is designed for a single private portfolio per device, which keeps the experience simple and fast. You can use separate browser profiles (web) or separate devices to keep distinct portfolios isolated."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How do I get a refund on the $1 iOS or Android app?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Refunds are handled by Apple and Google directly under their standard store policies. On iOS request a refund at reportaproblem.apple.com. On Android request one via the Google Play store within the eligible window. You can also email support@geosystemsdev.com for help."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What fiat currencies are supported?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "HODLings supports 28 fiat currencies: USD, EUR, GBP, AUD, CAD, SGD, JPY, CHF, CNY, INR, KRW, BRL, HKD, MXN, MYR, NZD, SEK, NOK, DKK, PLN, CZK, HUF, IDR, ILS, PHP, THB, TRY, and ZAR."
-      }
-    }
-  ]
-}
-</script>

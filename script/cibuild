@@ -2,6 +2,9 @@
 
 set -e
 
+script/build-inline-css
+git diff --exit-code -- _includes/style.css
+
 bundle exec jekyll build
 bundle exec htmlproofer ./_site --check-html --check-sri --disable-external
 bundle exec rubocop -D
