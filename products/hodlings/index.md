@@ -163,21 +163,6 @@ favicon:
     </div>
 </div>
 
-## HODLings at a glance
-
-<table class="product-facts">
-<tbody>
-<tr><th scope="row">Account required</th><td>No</td></tr>
-<tr><th scope="row">Portfolio storage</th><td>Local storage on your device</td></tr>
-<tr><th scope="row">Wallet or exchange sync</th><td>No — holdings are entered manually</td></tr>
-<tr><th scope="row">Portfolios</th><td>One private portfolio per device or browser profile</td></tr>
-<tr><th scope="row">Web price</th><td>Free, with optional support prompts</td></tr>
-<tr><th scope="row">Native app price</th><td>One-time store purchase; no subscription or in-app purchases</td></tr>
-<tr><th scope="row">Backup and transfer</th><td>Manual export and import between web, iOS, and Android</td></tr>
-<tr><th scope="row">Trading and custody</th><td>None — HODLings tracks values but never holds or trades assets</td></tr>
-</tbody>
-</table>
-
 <p class="image-gallery">
 <video controls id="myVideo" width="400" height="934" style="max-width: 400px; max-height: 60dvh; height: auto; display: block; margin: 0 auto;" preload="none" title="HODLings app demo video" aria-label="HODLings app demo video" playsinline poster="/products/hodlings/video-poster.jpg">
     <source src="/products/hodlings/HODLings-youtube.mp4" type="video/mp4">
