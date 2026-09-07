@@ -1,9 +1,9 @@
 ---
 layout: default
 canonical_url: https://www.geosystemsdev.com/
-title: "Geo Systems Dev | Private Productivity Apps for Desktop and Mobile"
-subtitle: "Private, offline-first apps — no accounts, no cloud, no tracking"
-description: "Geo Systems Dev builds privacy-focused productivity apps for document search, CSV analysis, data conversion, crypto portfolio tracking, and math plotting across desktop and mobile platforms."
+title: "Geo Systems Dev | Privacy-conscious Apps for Learning and Productivity"
+subtitle: "Thoughtful apps for learning, creativity, and private productivity"
+description: "Geo Systems Dev builds privacy-conscious educational and productivity apps for children, families, creators, and professionals across desktop, mobile, and web."
 tags:
     - offline-first software
     - privacy-first apps
@@ -21,9 +21,10 @@ keywords:
     - private crypto portfolio tracker
     - canva math plotting app
     - app store productivity apps
+    - educational reading app for children
     - microsoft store productivity apps
     - offline desktop apps for mac and windows
-last_modified_at: 2026-03-27
+last_modified_at: 2026-09-07
 image:
     path: https://www.geosystemsdev.com/assets/images/store-badges/download_apple_store_320.png
     alt: "Geo Systems Dev builds private offline-first software"
@@ -33,12 +34,13 @@ image:
 
 <h2>About Us</h2>
 
-<strong>Geo Systems Dev PTY LTD</strong> creates practical software for people who work with documents, data, and analysis every day.
+<strong>Geo Systems Dev PTY LTD</strong> creates practical software for learning, creativity, documents, data, and analysis.
 
 Our products are designed to be straightforward, fast, and privacy-conscious — so sensitive work can stay on your own devices. Most of our apps process data entirely locally, with no accounts required and no cloud uploads.
 
 <h2>Products</h2>
 
+- [**ReadPop**](/products/readpop/) — interactive lift-the-flap learning books for children aged 3–8, with bilingual content, quizzes, offline downloads, no advertising, and no user accounts.
 - [**HODLings**](/products/hodlings/) — private cryptocurrency tracker for web, iPhone, iPad, and Android. Track Bitcoin, Ethereum, Solana and 1000+ coins with on-device local storage — no account, no ads, and no subscriptions. Free at [hodlings.app](https://hodlings.app), with one-time $1 native apps on iOS and Android.
 - [**File Content Finder**](/products/file-content-finder/) — desktop search app for macOS and Windows. Search across all your documents by their actual contents — PDF, Word, Excel, images (OCR), and more. No indexing required.
 - [**TextQ**](/products/textq/) — analyse and query large CSV files on macOS with a visual query builder or full SQL. Built for datasets too large for typical spreadsheet workflows. All processing is local.
@@ -55,7 +57,7 @@ Please feel free to <a href="mailto:support@geosystemsdev.com">email us</a> for 
     "@type": "Organization",
     "name": "Geo Systems Dev PTY LTD",
     "url": "https://www.geosystemsdev.com/",
-    "description": "Geo Systems Dev PTY LTD builds private, offline-first productivity software.",
+    "description": "Geo Systems Dev PTY LTD builds privacy-conscious educational and productivity software.",
     "sameAs": [
         "https://www.geosystemsdev.com/"
     ]
@@ -71,30 +73,36 @@ Please feel free to <a href="mailto:support@geosystemsdev.com">email us</a> for 
         {
             "@type": "ListItem",
             "position": 1,
+            "url": "https://www.geosystemsdev.com/products/readpop/",
+            "name": "ReadPop"
+        },
+        {
+            "@type": "ListItem",
+            "position": 2,
             "url": "https://www.geosystemsdev.com/products/file-content-finder/",
             "name": "File Content Finder"
         },
         {
             "@type": "ListItem",
-            "position": 2,
+            "position": 3,
             "url": "https://www.geosystemsdev.com/products/textq/",
             "name": "TextQ"
         },
         {
             "@type": "ListItem",
-            "position": 3,
+            "position": 4,
             "url": "https://www.geosystemsdev.com/products/data-transformer/",
             "name": "Data Transformer"
         },
         {
             "@type": "ListItem",
-            "position": 4,
+            "position": 5,
             "url": "https://www.geosystemsdev.com/products/hodlings/",
             "name": "HODLings"
         },
         {
             "@type": "ListItem",
-            "position": 5,
+            "position": 6,
             "url": "https://www.geosystemsdev.com/products/math-plot/",
             "name": "MathPlot"
         }
