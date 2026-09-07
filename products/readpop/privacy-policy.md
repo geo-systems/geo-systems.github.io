@@ -1,6 +1,6 @@
 ---
 layout: default
-canonical_url: https://www.geosystemsdev.com/products/readpop/privacy-policy/
+canonical_url: https://www.geosystemsdev.com/products/readpop/privacy-policy.html
 title: ReadPop Privacy Policy
 description: "How ReadPop handles children's privacy, local reading data, hosted book content, and subscription purchases."
 last_modified_at: 2026-09-07
@@ -71,4 +71,3 @@ We may update this policy when ReadPop or its service providers change. We will 
 ## Contact us
 
 For privacy questions or requests, contact **Geo Systems Dev PTY LTD** at [support@geosystemsdev.com](mailto:support@geosystemsdev.com?subject=ReadPop%20privacy).
-

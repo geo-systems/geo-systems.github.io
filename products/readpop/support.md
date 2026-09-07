@@ -1,6 +1,6 @@
 ---
 layout: default
-canonical_url: https://www.geosystemsdev.com/products/readpop/support/
+canonical_url: https://www.geosystemsdev.com/products/readpop/support.html
 title: ReadPop Support
 description: "Help with ReadPop books, downloads, subscriptions, and restoring purchases."
 last_modified_at: 2026-09-07
@@ -26,6 +26,5 @@ Subscriptions are managed and cancelled through the device's Apple App Store or 
 
 For help, email [support@geosystemsdev.com](mailto:support@geosystemsdev.com?subject=ReadPop%20support). Include the device type, operating-system version, what you expected, and what happened. Do not send passwords, full payment-card details, or sensitive information.
 
-- [ReadPop Privacy Policy](/products/readpop/privacy-policy/)
-- [ReadPop Terms of Use](/products/readpop/terms-and-conditions/)
-
+- [ReadPop Privacy Policy](/products/readpop/privacy-policy.html)
+- [ReadPop Terms of Use](/products/readpop/terms-and-conditions.html)

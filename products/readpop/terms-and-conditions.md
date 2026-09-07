@@ -1,6 +1,6 @@
 ---
 layout: default
-canonical_url: https://www.geosystemsdev.com/products/readpop/terms-and-conditions/
+canonical_url: https://www.geosystemsdev.com/products/readpop/terms-and-conditions.html
 title: ReadPop Terms of Use
 description: "Terms governing use of the ReadPop educational reading app and its auto-renewing subscriptions."
 last_modified_at: 2026-09-07
@@ -14,7 +14,7 @@ These Terms of Use ("Terms") are an agreement between you and **Geo Systems Dev 
 
 ## 1. Acceptance and eligibility
 
-By downloading, purchasing, or using ReadPop, you agree to these Terms and our [Privacy Policy](/products/readpop/privacy-policy/). If you do not agree, do not use the App. Parents and guardians are responsible for subscription decisions and for the child's use of the App.
+By downloading, purchasing, or using ReadPop, you agree to these Terms and our [Privacy Policy](/products/readpop/privacy-policy.html). If you do not agree, do not use the App. Parents and guardians are responsible for subscription decisions and for the child's use of the App.
 
 ## 2. Educational service
 
@@ -76,4 +76,3 @@ We may update these Terms to reflect changes to ReadPop, service providers, law,
 ## 13. Contact
 
 Questions about these Terms can be sent to **Geo Systems Dev PTY LTD** at [support@geosystemsdev.com](mailto:support@geosystemsdev.com?subject=ReadPop%20terms).
-

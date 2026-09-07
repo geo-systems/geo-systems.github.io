@@ -37,8 +37,8 @@ ReadPop is being prepared for iPhone, iPad, Android phones and tablets, with a b
 
 ## Help and policies
 
-- [ReadPop Support](/products/readpop/support/)
-- [ReadPop Privacy Policy](/products/readpop/privacy-policy/)
-- [ReadPop Terms of Use](/products/readpop/terms-and-conditions/)
+- [ReadPop Support](/products/readpop/support.html)
+- [ReadPop Privacy Policy](/products/readpop/privacy-policy.html)
+- [ReadPop Terms of Use](/products/readpop/terms-and-conditions.html)
 
 Questions? Email [support@geosystemsdev.com](mailto:support@geosystemsdev.com?subject=ReadPop).
